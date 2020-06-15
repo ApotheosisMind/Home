@@ -372,6 +372,20 @@
             }
 
 
+            .image-box .project-img{
+                position:relative;
+            }
+
+                .image-box .project-img img {
+                    max-width: 100%;
+                    border-radius: 30px;
+                    transition: transform 0.7s;
+                }
+
+                .image-box:hover .project-img img{
+                    transform: scale(1.1);
+                }
+
         </style>
     </head>
     <body onload="fadeIn_atstart()" id="bodystart">
@@ -457,31 +471,27 @@
 
                     <div id="project-images">
                         <center>
-                            <div class="image-box">
 
+
+                            <div class="image-box">
+                                <div class="project-img">
+                                    <img src="img1.jpg" />
+                                </div>
                             </div>
 
                             <div class="image-box">
-
+                                <div class="project-img">
+                                    <img src="img1.jpg" />
+                                </div>
                             </div>
 
                             <div class="image-box">
-
+                                <div class="project-img">
+                                    <img src="img1.jpg" />
+                                </div>
                             </div>
 
-                            <div class="image-box">
 
-                            </div>
-
-                            <div class="image-box">
-
-                            </div>
-                            <div class="image-box">
-
-                            </div>
-                            <div class="image-box">
-
-                            </div>
 
 
                         </center>
