@@ -1,0 +1,464 @@
+<html>
+    <head>
+        <title>
+            Home
+        </title>
+
+        <style>
+            * {
+                margin: 0;
+                //background: #ffffff;
+                padding: 0;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: 200;
+                user-select: none;
+                text-transform: capitalize;
+                transition: all 0.5s;
+            }
+            html {
+                scroll-behavior: smooth;
+            }
+
+            body {
+                min-height: 700px;
+                height: 700px;
+                max-height: 700px;
+                
+                opacity: 0;
+            }
+            
+            ::-webkit-scrollbar {
+                display: none;
+            }
+
+            #head-outer {
+                height: 50px;
+                width: 100%;
+                background-color: rgba(52,113,219, 225);
+                z-index: 1;
+                position: fixed;
+                top: 0px;
+            }
+            #head-inner {
+                background-color: rgba(52,113,219, 225);
+                padding: 10px;
+                text-align: left;
+            }
+            #company-name {
+                text-align: left;
+                color: white;
+                background-color: rgba(52,113,219, 225);
+                font-size: 24px;
+                font-weight: 300;
+            }
+
+            #head-left-content {
+                
+                background-color: rgba(52,113,219, 225);
+                text-align: left;
+            }
+
+            #head-right-content {
+                position:fixed;
+                top: 15px;
+                font-size: 18px;
+                background-color: rgba(52,113,219, 225);
+                right: 50px;
+            }
+
+            #home-name {
+                background-color: rgba(52,113,219, 225);
+                margin-left: 0px;
+                padding: 11px;
+                border-bottom-color: rgba(52,113,219, 225);
+                border-bottom-style: solid;
+                border-bottom-width: 2px;
+                color: white;
+            }
+
+            #product-name {
+                background-color: rgba(52,113,219, 225);
+                margin-left: 50px;
+                padding: 11px;
+                border-bottom-color: rgba(52,113,219, 225);
+                border-bottom-style: solid;
+                border-bottom-width: 2px;
+                color: white;
+            }
+            #about-name {
+                background-color: rgba(52,113,219, 225);
+                margin-left: 50px;
+                padding: 11px;
+                border-bottom-color: rgba(52,113,219, 225);
+                border-bottom-style: solid;
+                border-bottom-width: 2px;
+                color: white;
+            }
+
+            #contact-name {
+                background-color: rgba(52,113,219, 225);
+                margin-left: 50px;
+                padding: 11px;
+                border-bottom-color: rgba(52,113,219, 225);
+                border-bottom-style: solid;
+                border-bottom-width: 2px;
+                color: white;
+            }
+
+
+            .my-image-hover {
+                position: relative;
+                width: 50%;
+                border-radius: 50%;
+            }
+
+
+            .image {
+                display: block;
+                width: 100%;
+                height: 50%;
+                border-radius: 50%;
+                background: url("https://github.com/sahilbhatiya/Gym-App/raw/master/build/home_bg.png");
+                background-size: 100%;
+            }
+            .my-name-overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+                background-color: #4885ef;
+                border-radius: 50%;
+            }
+
+            .my-image-hover:hover .my-name-overlay {
+                opacity: 1;
+            }
+            .my-name-text {
+                color: white;
+                background-color: #4885ef;
+                font-size: 14px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+
+            #adjust-my-image{
+                width: 200px;
+                height: 200px;
+                padding: 20px;
+                position: fixed;
+                bottom: -100px;
+            }
+
+            #my-linkedin {
+                color: white;
+                padding: 5px;
+                background-color: #4885ef;
+                width: 100px;
+                left: 200px;
+                margin: 5px;
+                text-align: center;
+                border-radius: 15px;
+                transition: all 0.5s;
+            }
+
+            #linkedin-link {
+                color: white;
+                background-color: #4885ef;
+                text-decoration: none;
+                height: 100%;
+                padding: 4px 20px;
+                transition: all 0.5s;
+            }
+           
+
+            #my-linkedin:hover{
+                background-color: #2865cf;
+            }
+
+            #my-linkedin:hover #linkedin-link {
+            background-color: #2865cf;
+            }
+
+            #starting-intro-conent:hover + #home-name
+            {
+                color: black;
+            }
+
+            #my-email {
+                color: white;
+                padding: 5px;
+                background-color: #4885ef;
+                width: 100px;
+                margin: 5px;
+                text-align: center;
+                border-radius: 15px;
+                transition: all 0.5s;
+            }
+
+            #email-link {
+                color: white;
+                background-color: #4885ef;
+                text-decoration: none;
+                width: 150px;
+                height: 100%;
+                padding: 4px 20px;
+            }
+
+            #my-email:hover {
+            background-color: #2865cf;
+            }
+
+            #my-email:hover #email-link {
+                background-color: #2865cf;
+            }
+
+            #at-end{
+                bottom: 35px;
+                left: 125px;
+                position: fixed;
+                font-size: 12px;
+            }
+
+            #starting-intro-conent:hover + #home-name {
+               
+                border-bottom-color: white;
+                
+            }
+
+            .noborderonfocus:focus{
+                outline:none;
+            }
+
+            .noborderonfocus {
+                padding: 10px 20px;
+                border-radius: 50px;
+                margin: auto 30px;
+                border-style: solid;
+                color: white;
+                font-size: 15px;
+                transition: all 0.5s;
+            }
+
+            #getstarted_button {
+                background: rgba(52, 113, 219, 255);
+                border-color: rgba(52, 113, 219, 255);
+            }
+
+                #getstarted_button:hover {
+                    background: rgba(0,0,0,0);
+                    border-color: white;
+                    cursor: pointer;
+                }
+
+            #Project_button {
+                background: rgba(0,0,0,0);
+                
+                border-color: white;
+            }
+
+                #Project_button:hover {
+                    background: rgba(52, 113, 219, 255);
+                    border-color: rgba(52, 113, 219, 255);
+                    cursor: pointer;
+                }
+
+
+            #starting-intro-conent {
+                position: absolute;
+                top: 0px;
+                width: 100%;
+                height: 900px;
+                background: url("https://github.com/sahilbhatiya/Gym-App/blob/master/intro-bg.png?raw=true");
+                background-size: 100% 85%;
+                background-position: top;
+                background-repeat: no-repeat;
+                text-align: center;
+            }
+
+                  
+
+            #starting-intro-conent h1 {
+                color: #4885ef;
+                padding: 5px;
+                font-size: 40px;
+            }
+            #starting-intro-conent span {
+                   font-size: 20px;
+                }
+
+
+            #mid-intro-conent {
+                position: absolute;
+                top: 800px;
+                width: 100%;
+                text-align: right;
+                /* background: url("https://images.pexels.com/photos/3759098/pexels-photo-3759098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;*/
+
+                height: 300px;
+                
+            }
+
+                #mid-intro-conent h1 {
+                    color: #4885ef;
+                    padding: 5px;
+                    font-weight:500;
+                    padding-right: 20px;
+                    font-size: 40px;
+                }
+
+                #mid-intro-conent span {
+                    padding-right: 20px;
+                    font-size: 20px;
+                    color: antiquewhite;
+                }
+
+
+        </style>
+    </head>
+    <body onload="fadeIn_atstart()" id="bodystart">
+        <div id="head-outer">
+            <div id="head-inner">
+                <span id="head-left-content">
+                    <span id="company-name">
+                        Apotheosis <span style="font-weight: 400;">Mind</span>
+                    </span>
+                </span>
+                
+                <span id="head-right-content">
+
+                    <span id="home-name">
+                        Home
+                    </span>
+
+                    <span id="about-name">
+                        About Us
+                    </span>
+
+                    <span id="product-name">
+                        Projects
+                    </span>
+
+
+                    <span id="contact-name">
+                        Contact Us
+                    </span>
+
+                </span>
+            </div>
+        </div>
+        <div id="bg_home">
+
+
+            <div id="homescreen-content">
+                <div id="starting-intro-conent">
+                    <h1 style="width: 50%; left: 50%; position: absolute; transform: translateX(-50%); top: 245px; font-weight:350;" id="my-company-name">Apotheosis <b style="font-weight: 450;">Mind</b></h1>
+                    <span style="position:absolute; left:50%; transform: translateX(-50%); top: 325px; color: white" id="my-company-name"> It is an Open Source software Company Founded by sahil bhatiya In the year 2020. </span>
+                    <span id="buttons-heading" style="position:absolute; top:400px; left: 50%; transform: translateX(-50%);">
+                        <input type="button" value="Get Started" class="noborderonfocus" id="getstarted_button"  />
+                        <input type="button" value="Projects" class="noborderonfocus" id="Project_button"    />
+                    </span>
+                </div>
+
+                <div id="mid-intro-conent">
+                    <h1>
+                        Work Of interest
+                    </h1>
+                    <span>
+                        Daily Use Softwares
+
+                    </span>
+                </div>
+            </div>
+
+
+
+
+            
+
+            <div id="adjust-my-image">
+                <div class="my-image-hover">
+                    <div class="image"> </div>
+                    <div class="my-name-overlay">
+                        <div class="my-name-text">Sahil Bhatiya</div>
+                    </div>
+                </div>
+            </div>
+            <div id="at-end">
+                <div id="my-linkedin">
+                    <a href="https://www.linkedin.com/in/sahil-bhatiya-73790719a/" id="linkedin-link" target="_blank">Linked In</a>
+                </div>
+
+                <div id="my-email">
+                    <a href="mailto:sahil242bhatiya@gmail.com" id="email-link">Email</a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <script>
+
+
+            function fadeIn_atstart() {
+                var elem = document.getElementById("bodystart");
+                var opacity = 0;
+                var id = setInterval(frame, 5);
+                function frame() {
+                    if (opacity >= 1) {
+                        clearInterval(id);
+                    } else {
+                        opacity += 0.0015;
+                        elem.style.opacity = opacity;
+                    }
+                }
+            }
+
+                
+            
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
