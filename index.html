@@ -25,11 +25,8 @@
                 max-width: 900px;
             }
 
-            body {
-               
-                
-                
-                opacity: 0;
+            #bodyvisible {
+                opacity:0;
             }
             
             ::-webkit-scrollbar {
@@ -380,6 +377,24 @@
                 border-radius: 30px;
             }
 
+            #loading{
+                position:fixed;
+                top: 50%;
+                left: 50%;
+                z-index: 10;
+                transform:translate(-50%,-50%);
+                width: 100%;
+                height: 100%;
+            }
+
+                #loading #fullscreen-loading {
+                    position: fixed;
+                    top: 50%;
+                    left: 50%;
+                    z-index: 10;
+                    transform: translate(-50%,-50%);
+                }
+
 
             .image-box .project-img{
                 position:relative;
@@ -395,202 +410,218 @@
                     transform: scale(1.2);
                 }
 
+
+            #loading #fullscreen-loading img{
+                width: 120%;
+            }
         </style>
     </head>
     <body onload="fadeIn_atstart()" id="bodystart">
-        <div id="head-outer">
-            <div id="head-inner">
-                <span id="head-left-content">
-                    <span id="company-name">
-                        Apotheosis <span style="font-weight: 400;">Mind</span>
-                    </span>
-                </span>
-                
-                <span id="head-right-content">
-
-                    <span id="home-name">
-                        Home
-                    </span>
-
-                    <span id="about-name">
-                        About Us
-                    </span>
-
-                    <span id="product-name">
-                        Projects
-                    </span>
 
 
-                    <span id="contact-name">
-                        Contact Us
-                    </span>
-
-                </span>
+        <div id="loading">
+            <div id="fullscreen-loading">
+                <img src="loading.gif" />
             </div>
         </div>
-        <div id="bg_home">
 
 
-            <div id="homescreen-content">
-                <div id="starting-intro-conent">
-                    <h1 style="width: 50%; left: 50%; position: absolute; transform: translateX(-50%); top: 245px; font-weight:350;" id="my-company-name">Apotheosis <b style="font-weight: 450;">Mind</b></h1>
-                    <span style="position:absolute; left:50%; transform: translateX(-50%); top: 325px; color: white" id="my-company-name">Get your customized Software and games.</span>
-                    <span id="buttons-heading" style="position:absolute; top:400px; left: 50%; transform: translateX(-50%);">
-                        <input type="button" value="Get Started" class="noborderonfocus" id="getstarted_button" />
-                        <input type="button" value="Projects" class="noborderonfocus" id="Project_button" />
+        <div id="bodyvisible">
+
+
+            <div id="head-outer">
+                <div id="head-inner">
+                    <span id="head-left-content">
+                        <span id="company-name">
+                            Apotheosis <span style="font-weight: 400;">Mind</span>
+                        </span>
+                    </span>
+
+                    <span id="head-right-content">
+
+                        <span id="home-name">
+                            Home
+                        </span>
+
+                        <span id="about-name">
+                            About Us
+                        </span>
+
+                        <span id="product-name">
+                            Projects
+                        </span>
+
+
+                        <span id="contact-name">
+                            Contact Us
+                        </span>
+
                     </span>
                 </div>
+            </div>
+            <div id="bg_home">
 
-                <div id="mid-intro-conent">
-                    <h1>
-                        About Us
-                    </h1>
-                    <span>
-                        <center>
-                            It is a programming Company Founded by <b style="font-weight:450;">sahil bhatiya</b> In the year 2020. <br />
-                            Creates applications for windows, android and in web.
-                        </center>
+
+                <div id="homescreen-content">
+                    <div id="starting-intro-conent">
+                        <h1 style="width: 50%; left: 50%; position: absolute; transform: translateX(-50%); top: 245px; font-weight:350;" id="my-company-name">Apotheosis <b style="font-weight: 450;">Mind</b></h1>
+                        <span style="position:absolute; left:50%; transform: translateX(-50%); top: 325px; color: white" id="my-company-name">Get your customized Software and games.</span>
+                        <span id="buttons-heading" style="position:absolute; top:400px; left: 50%; transform: translateX(-50%);">
+                            <input type="button" value="Get Started" class="noborderonfocus" id="getstarted_button" />
+                            <input type="button" value="Projects" class="noborderonfocus" id="Project_button" />
+                        </span>
+                    </div>
+
+                    <div id="mid-intro-conent">
+                        <h1>
+                            About Us
+                        </h1>
+                        <span>
+                            <center>
+                                It is a programming Company Founded by <b style="font-weight:450;">sahil bhatiya</b> In the year 2020. <br />
+                                Creates applications for windows, android and in web.
+                            </center>
+                        </span>
+                    </div>
+
+                    <span id="about-us-left-content">
+
                     </span>
+
+
+                    <span id="about-us-right-image">
+
+                    </span>
+
+
+                    <span id="why-choose-us">
+
+                    </span>
+
+
+
+                    <div id="project-section-outer">
+                        <div id="project-section-1">
+                            <center>
+                                <h1>
+                                    Our Projects
+                                </h1>
+                            </center>
+                        </div>
+
+                        <div id="project-images">
+                            <center>
+
+
+                                <div class="image-box">
+                                    <div class="project-img">
+                                        <img src="img1.jpg" />
+                                    </div>
+                                </div>
+
+                                <div class="image-box">
+                                    <div class="project-img">
+                                        <img src="img1.jpg" />
+                                    </div>
+                                </div>
+
+                                <div class="image-box">
+                                    <div class="project-img">
+                                        <img src="img1.jpg" />
+                                    </div>
+                                </div>
+
+
+                                <div class="image-box">
+                                    <div class="project-img">
+                                        <img src="img1.jpg" />
+                                    </div>
+                                </div>
+
+                                <div class="image-box">
+                                    <div class="project-img">
+                                        <img src="img1.jpg" />
+                                    </div>
+                                </div>
+
+
+                                <div class="image-box">
+                                    <div class="project-img">
+                                        <img src="img1.jpg" />
+                                    </div>
+                                </div>
+
+
+                                <div class="image-box">
+                                    <div class="project-img">
+                                        <img src="img1.jpg" />
+                                    </div>
+                                </div>
+
+
+                            </center>
+                        </div>
+                    </div>
+
+
                 </div>
 
-                <span id="about-us-left-content">
-
-                </span>
-
-
-                <span id="about-us-right-image">
-
-                </span>
-
-
-                <span id="why-choose-us">
-
-                </span>
 
 
 
-                <div id="project-section-outer">
-                    <div id="project-section-1">
-                        <center>
-                            <h1>
-                                Our Projects
-                            </h1>
-                        </center>
+
+
+
+
+
+                <div id="adjust-my-image">
+                    <div class="my-image-hover">
+                        <div class="image"> </div>
+                        <div class="my-name-overlay">
+                            <div class="my-name-text">Sahil Bhatiya</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="at-end">
+                    <div id="my-linkedin">
+                        <a href="https://www.linkedin.com/in/sahil-bhatiya-73790719a/" id="linkedin-link" target="_blank">Linked In</a>
                     </div>
 
-                    <div id="project-images">
-                        <center>
-
-
-                            <div class="image-box">
-                                <div class="project-img">
-                                    <img src="img1.jpg" />
-                                </div>
-                            </div>
-
-                            <div class="image-box">
-                                <div class="project-img">
-                                    <img src="img1.jpg" />
-                                </div>
-                            </div>
-
-                            <div class="image-box">
-                                <div class="project-img">
-                                    <img src="img1.jpg" />
-                                </div>
-                            </div>
-
-
-                            <div class="image-box">
-                                <div class="project-img">
-                                    <img src="img1.jpg" />
-                                </div>
-                            </div>
-
-                            <div class="image-box">
-                                <div class="project-img">
-                                    <img src="img1.jpg" />
-                                </div>
-                            </div>
-
-
-                            <div class="image-box">
-                                <div class="project-img">
-                                    <img src="img1.jpg" />
-                                </div>
-                            </div>
-
-
-                            <div class="image-box">
-                                <div class="project-img">
-                                    <img src="img1.jpg" />
-                                </div>
-                            </div>
-
-
-                        </center>
+                    <div id="my-email">
+                        <a href="mailto:sahil242bhatiya@gmail.com" id="email-link">Email</a>
                     </div>
+
                 </div>
 
 
             </div>
 
 
-            
 
 
 
-
-            
-
-            <div id="adjust-my-image">
-                <div class="my-image-hover">
-                    <div class="image"> </div>
-                    <div class="my-name-overlay">
-                        <div class="my-name-text">Sahil Bhatiya</div>
-                    </div>
-                </div>
-            </div>
-            <div id="at-end">
-                <div id="my-linkedin">
-                    <a href="https://www.linkedin.com/in/sahil-bhatiya-73790719a/" id="linkedin-link" target="_blank">Linked In</a>
-                </div>
-
-                <div id="my-email">
-                    <a href="mailto:sahil242bhatiya@gmail.com" id="email-link">Email</a>
-                </div>
-
-            </div>
+            <script>
 
 
-        </div>
-
-
-
-
-
-        <script>
-
-
-            function fadeIn_atstart() {
-                var elem = document.getElementById("bodystart");
-                var opacity = 0;
-                var id = setInterval(frame, 5);
-                function frame() {
-                    if (opacity >= 3) {
-                        clearInterval(id);
-                        alert("On the off chance that You have any recommendations don't hesitate to mail. \nYou can discover mail at left base.");
-                    } else {
-                        opacity += 0.003;
-                        elem.style.opacity = opacity;
+                function fadeIn_atstart() {
+                    var elem = document.getElementById("bodyvisible");
+                    var opacity = 0;
+                    document.getElementById("loading").style.display = "none";
+                    var id = setInterval(frame, 5);
+                    function frame() {
+                        if (opacity >= 5) {
+                            clearInterval(id);
+                            alert("On the off chance that You have any recommendations don't hesitate to mail. \nYou can discover mail at left base.");
+                        } else {
+                            opacity += 0.003;
+                            elem.style.opacity = opacity;
+                        }
                     }
                 }
-            }
 
-                
-            
-        </script>
 
+
+            </script>
 
 
 
@@ -614,6 +645,7 @@
 
 
 
+        </div>
 
     </body>
 </html>
