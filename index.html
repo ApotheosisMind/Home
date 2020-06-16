@@ -54,7 +54,7 @@
 
         #head-right-content {
             position: fixed;
-            top: 15px;
+            top: 17px;
             font-size: 18px;
             background-color: rgba(52,113,219, 225);
             right: 50px;
@@ -597,7 +597,7 @@
         <script>
 
             function fadeIn_atstart() {
-                
+                var runonce = false;
                 var elem1 = document.getElementById("loading");
                 var elem2 = document.getElementById("fullscreen-loading");
                 var id1 = setInterval(frame1, 5);
@@ -611,11 +611,15 @@
                     else {
                         opacity1 -= 0.009;
                         elem1.style.opacity = opacity1;
-                        if (opacity1 <= 0.7) {
-                            document.getElementById("fullscreen-loading").style.display = "none";
-                            document.getElementById("loadingio-spinner-eclipse-2u3lyfooryt").style.display = "none";
-                            document.getElementById("ldio-elrulunt8js").style.display = "none";
+                        if (opacity1 <= 0.8 && runonce == false) {
+                            runonce = true;
+                            
                             document.getElementById("loading-screen").style.display = "none";
+                            
+                            document.getElementById("fullscreen-loading").style.display = "none";
+                            
+                            
+                            
                         }
                         
                     }
