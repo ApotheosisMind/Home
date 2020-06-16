@@ -606,6 +606,21 @@
             width: 100%;
             text-align: center;
         }
+
+
+        #comming-soon{
+            padding: 10px 30px;
+            color: white;
+            background-color: #ff2222;
+            position: fixed;
+            bottom: 50px;
+            left: 50%; 
+            transform: translateX(-50%);
+            border-radius: 20px;
+            opacity: 0;
+        }
+            
+
     </style>
 </head>
 <body onload="fadeIn_atstart()" id="bodystart">
@@ -704,7 +719,7 @@
                     <div id="project-section-1">
                         <center>
                             <h1>
-                                Our Projects
+                                Projects
                             </h1>
                         </center>
                     </div>
@@ -722,7 +737,7 @@
                                         <p></p>
                                     </div>
                                 </div>
-                                <button class="download-btn"><i class="fa fa-download"></i> </button>
+                                <button class="download-btn" onclick="errorvisible()"><i class="fa fa-download" ></i> </button>
                             </div>
 
 
@@ -737,7 +752,7 @@
                                         <p></p>
                                     </div>
                                 </div>
-                                <button class="download-btn"><i class="fa fa-download"></i> </button>
+                                <button class="download-btn" onclick="errorvisible()"><i class="fa fa-download"></i> </button>
                             </div>
 
 
@@ -752,7 +767,7 @@
                                         <p></p>
                                     </div>
                                 </div>
-                                <button class="download-btn"><i class="fa fa-download"></i> </button>
+                                <button class="download-btn" onclick="errorvisible()"><i class="fa fa-download"></i> </button>
                             </div>
 
 
@@ -767,7 +782,7 @@
                                         <p></p>
                                     </div>
                                 </div>
-                                <button class="download-btn"><i class="fa fa-download"></i> </button>
+                                <button class="download-btn" onclick="errorvisible()"><i class="fa fa-download"></i> </button>
                             </div>
 
 
@@ -782,7 +797,7 @@
                                         <p></p>
                                     </div>
                                 </div>
-                                <button class="download-btn"><i class="fa fa-download"></i> </button>
+                                <button class="download-btn" onclick="errorvisible()"><i class="fa fa-download"></i> </button>
                             </div>
 
 
@@ -797,7 +812,7 @@
                                         <p></p>
                                     </div>
                                 </div>
-                                <button class="download-btn"><i class="fa fa-download"></i> </button>
+                                <button class="download-btn" onclick="errorvisible()"><i class="fa fa-download"></i> </button>
                             </div>
 
                             <!--
@@ -848,7 +863,7 @@
                                     </div>
 
                                     <div class="mail-sec-in">
-                                        <input type="button" value="Submit" id="mail-send" />
+                                        <input type="button" value="Submit" id="mail-send" onclick="errorvisible()"/>
                                     </div>
 
                                 </div>
@@ -932,6 +947,20 @@
         </div>
 
 
+
+
+        <div id="comming-soon">
+            Coming soon!
+        </div>
+
+
+
+
+
+
+
+
+
     </div>
 
 
@@ -943,7 +972,15 @@
 
     <script>
 
+        function errorvisible() {
+            document.getElementById("comming-soon").style.opacity = 1;
+            setTimeout(errrdis, 2000);
+        }
 
+        
+        function errrdis() {
+            document.getElementById("comming-soon").style.opacity = 0;
+        }
 
 
 
