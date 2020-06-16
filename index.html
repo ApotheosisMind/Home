@@ -86,10 +86,13 @@
             border-radius: 50%;
         }
 
-        .image {
+        .image-of {
             display: block;
-            width: 100%;
-            height: 50%;
+            width: 100px;
+            position:fixed;
+            left: 20px;
+            bottom: 20px;
+            height: 100px;
             border-radius: 50%;
             background: url("https://github.com/sahilbhatiya/Gym-App/raw/master/build/home_bg.png");
             background-size: 100%;
@@ -103,36 +106,45 @@
             right: 0;
             height: 100%;
             width: 100%;
-            opacity: 0;
+            opacity: 1;
             transition: 1s ease;
             background-color: rgba(52,113,219, 225);
             border-radius: 50%;
         }
 
         .my-image-hover:hover .my-name-overlay {
-            opacity: 1;
+            opacity: 0;
         }
 
         .my-name-text {
             color: white;
-            background-color: rgba(52,113,219, 225);
+            background-color: rgba(52,113,219, 1);
             font-size: 14px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+            position: fixed;
+            width: 100px;
+            position: fixed;
+            left: 20px;
+            bottom: 20px;
+            height: 100px;
+           border-radius: 50%;
+           align-items: center;
             text-align: center;
         }
+            .my-name-text p{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
 
-        #adjust-my-image {
-            width: 200px;
-            height: 200px;
-            padding: 20px;
-            position: fixed;
-            bottom: -100px;
-        }
+
+            #adjust-my-image {
+                width: 200px;
+                height: 200px;
+                padding: 20px;
+                position: fixed;
+                bottom: -100px;
+            }
 
         #my-linkedin {
             color: white;
@@ -469,17 +481,16 @@
             background-color: rgba(22, 83, 189, 255);
             color: white;
             border-radius: 20px;
-            padding: 10px 30px; 
-            
+            padding: 10px 30px;
         }
 
-            .download-btn:focus{
-                outline:none;
+            .download-btn:focus {
+                outline: none;
             }
 
-            .nav-links {
-                text-decoration: none;
-            }
+        .nav-links {
+            text-decoration: none;
+        }
 
 
 
@@ -492,13 +503,12 @@
             top: 4200px;
             width: 100%;
             left: 50%;
-            transform:translateX(-50%);
+            transform: translateX(-50%);
             display: flex;
-            flex-wrap:wrap;
-            flex-direction:row;
+            flex-wrap: wrap;
+            flex-direction: row;
             color: white;
             font-size: 12.5px;
-           
             text-transform: capitalize;
         }
 
@@ -524,31 +534,30 @@
             text-align: center;
         }
 
-        #last-section div{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
+            #last-section div {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
 
-        #contact-section-start{
+        #contact-section-start {
             position: absolute;
             top: 3500px;
             width: 100%;
             min-height: 500px;
         }
 
-        #contact-section-inner{
+        #contact-section-inner {
             width: 100%;
             height: 400px;
             display: flex;
             margin-left: auto;
             margin-right: auto;
-
         }
 
-        input:focus{
-            outline:none;
+        input:focus {
+            outline: none;
         }
 
         .content-section-divsion {
@@ -560,7 +569,7 @@
             height: 500px;
         }
 
-        #mail section{
+        #mail section {
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
@@ -572,7 +581,7 @@
             flex-wrap: wrap;
         }
 
-        .mail-sec-in{
+        .mail-sec-in {
             margin: 5px 5px;
             background: white;
         }
@@ -582,13 +591,12 @@
                 padding: 10px;
             }
 
-        #mail-send
-        {
-           border-radius: 20px;
-           background-color: #4885ef;
-           border:0px;
-           padding: 5px 20px;
-           color: white;
+        #mail-send {
+            border-radius: 20px;
+            background-color: #4885ef;
+            border: 0px;
+            padding: 5px 20px;
+            color: white;
         }
 
         #contact-section-start h1 {
@@ -598,7 +606,6 @@
             width: 100%;
             text-align: center;
         }
-   
     </style>
 </head>
 <body onload="fadeIn_atstart()" id="bodystart">
@@ -645,7 +652,7 @@
                     </a>
 
 
-                    <a href="#contact-section" class="nav-links">
+                    <a href="#contact-section-start" class="nav-links">
                         <span id="contact-name" class="nav-nameselector" name="contact">
                             Contact Us
                         </span>
@@ -826,25 +833,25 @@
                             </div>
                             <div id="mail section" class="content-section-divsion">
                                 <div id="mail-section-inner">
-                                   
+
                                     <div id="mail-section-inner-1" class="mail-sec-in">
                                         <input type="text" placeholder="Your Name" required />
                                         <input type="email" placeholder="Your Email" required />
                                     </div>
 
-                                    <div  class="mail-sec-in">
+                                    <div class="mail-sec-in">
                                         <input type="text" placeholder="Subject" required />
                                     </div>
 
-                                    <div  class="mail-sec-in" id="mail-content"> 
-                                        <textarea id = "myTextArea" rows = "10" cols = "68" placeholder="Content"></textarea>
+                                    <div class="mail-sec-in" id="mail-content">
+                                        <textarea id="myTextArea" rows="10" cols="55" placeholder="Content"></textarea>
                                     </div>
 
-                                    <div  class="mail-sec-in">
-                                        <input type="button" value="Submit" id="mail-send"/>
+                                    <div class="mail-sec-in">
+                                        <input type="button" value="Submit" id="mail-send" />
                                     </div>
 
-                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -906,40 +913,37 @@
 
         </div>
 
-
-
-    </div>
-
-    <div id="adjust-my-image">
-        <div class="my-image-hover">
-            <div class="image"> </div>
-            <div class="my-name-overlay">
-                <div class="my-name-text"> Sahil Bhatiya</div>
+        <div id="adjust-my-image">
+            <div class="my-image-hover">
+                <div class="image-of"> </div>
+                <div class="my-name-overlay">
+                    <div class="my-name-text"> <p>Sahil Bhatiya</p></div>
+                </div>
             </div>
         </div>
-    </div>
-    <div id="at-end">
-        <div id="my-linkedin">
-            <a href="https://www.linkedin.com/in/sahil-bhatiya-73790719a/" id="linkedin-link" target="_blank">Linked In</a>
+        <div id="at-end">
+            <div id="my-linkedin">
+                <a href="https://www.linkedin.com/in/sahil-bhatiya-73790719a/" id="linkedin-link" target="_blank">Linked In</a>
+            </div>
+
+            <div id="my-email">
+                <a href="mailto:sahil242bhatiya@gmail.com" id="email-link"> Email</a>
+            </div>
         </div>
 
-        <div id="my-email">
-            <a href="mailto:sahil242bhatiya@gmail.com" id="email-link"> Email</a>
-        </div>
-    </div>
-
-
-
-
-
 
     </div>
+
+
+
+
+
 
 
 
     <script>
 
-        
+
 
 
 
