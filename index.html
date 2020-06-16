@@ -356,16 +356,51 @@
 
         .image-box .project-img {
             position: relative;
+            overflow:hidden;
+            border-radius: 30px;
         }
 
-            .image-box .project-img img {
-                max-width: 100%;
+        .image-box .project-details {
+            position: absolute;
+            top: 0px;
+            color: white;
+            left: 50%;
+            transform: translateX(-50%);
+           padding: 33px 35px;
+            height: 235px;
+            width: 130px;
+            border-radius: 30px;
+            background-color: rgba(0, 0, 0, 0.1);
+
+            opacity: 0;
+        }
+            .image-box .project-details .content-project{
+                position:absolute;
+                top: 50%;
+                left: 50%;
+                height: 100%;
+                width: 100%;
                 border-radius: 30px;
-                transition: transform 0.7s;
+                
+                transform: translate(-50%, -50%);
+
             }
+                .image-box .project-details .content-project h2{
+                    padding: 15px 10px;
+                }
+
+                .image-box .project-img img {
+                    max-width: 100%;
+                    border-radius: 30px;
+                    transition: transform 0.7s;
+                }
+
+        .image-box:hover .project-details{
+            opacity: 1;
+        }
 
         .image-box:hover .project-img img {
-            transform: scale(1.1);
+            transform: scale(1.2);
         }
 
         #loading #fullscreen-loading img {
@@ -531,7 +566,17 @@
 
                             <div class="image-box">
                                 <div class="project-img">
-                                    <img src="img1.jpg" />
+                                    <img src="findawayout.png" />
+                                </div>
+
+                                <div class="project-details">
+                                    <div class="content-project">
+                                        <h2>
+                                            Find A Way out
+                                        </h2>
+                                        <p>
+                                    </div>
+                                    </p>
                                 </div>
                             </div>
 
