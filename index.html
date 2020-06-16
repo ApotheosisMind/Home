@@ -431,7 +431,7 @@
         <div id="fullscreen-loading">
             <div class="loadingio-spinner-eclipse-2u3lyfooryt">
                 <div class="ldio-elrulunt8js">
-                    <div> </div>
+                    <div id="loading-screen"> </div>
                 </div>
             </div>
         </div>
@@ -597,9 +597,32 @@
         <script>
 
             function fadeIn_atstart() {
+                
+                var elem1 = document.getElementById("loading");
+                var elem2 = document.getElementById("fullscreen-loading");
+                var id1 = setInterval(frame1, 5);
+                var opacity1 = 1
+                function frame1() {
+                    if (opacity1 <= 0) {
+                        clearInterval(id1);
+                        document.getElementById("loading").style.display = "none";
+                        
+                    }
+                    else {
+                        opacity1 -= 0.006;
+                        elem1.style.opacity = opacity1;
+                        if (opacity1 <= 0.7) {
+                            document.getElementById("fullscreen-loading").style.display = "none";
+                            document.getElementById("loadingio-spinner-eclipse-2u3lyfooryt").style.display = "none";
+                            document.getElementById("ldio-elrulunt8js").style.display = "none";
+                            document.getElementById("loading-screen").style.display = "none";
+                        }
+                        
+                    }
+                }
+
                 var elem = document.getElementById("bodyvisible");
                 var opacity = 0;
-                document.getElementById("loading").style.display = "none";
                 var id = setInterval(frame, 5);
                 function frame() {
                     if (opacity >= 1) {
@@ -608,7 +631,7 @@
                     }
 
                     else {
-                        opacity += 0.003;
+                        opacity += 0.004;
                         elem.style.opacity = opacity;
                     }
 
