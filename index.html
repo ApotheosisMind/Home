@@ -305,7 +305,7 @@
             position: absolute;
             top: 1750px;
             width: 100%;
-            min-height: 1700px;
+            min-height: 700px;
         }
 
             #project-section-outer #project-section-1 h1 {
@@ -317,7 +317,7 @@
             }
 
         #project-images {
-            min-height: 1500px;
+            min-height: 500px;
             margin: 70px auto 0px;
             display: flex;
             flex-direction: row;
@@ -369,7 +369,7 @@
             height: 235px;
             width: 130px;
             border-radius: 30px;
-            background: linear-gradient(rgba(52, 113, 219, 255), rgba(22, 83, 189, 255));
+            background: rgba(22, 83, 189, 255);
             background-size: 100% 100%;
             background-repeat: no-repeat;
             background-position: bottom;
@@ -479,6 +479,39 @@
             .nav-links {
                 text-decoration: none;
             }
+
+
+
+        #contact-section {
+            min-height: 400px;
+            background: url("intro-bg.png");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 3500px;
+            width: 100%;
+            left: 50%;
+            transform:translateX(-50%);
+            display: flex;
+            flex-wrap:wrap;
+            flex-direction:row;
+            color: white;
+            font-size: 10px;
+            align-items: center;
+            text-transform: capitalize;
+        }
+
+            #contact-section div {
+                text-transform: capitalize;
+                margin: 70px;
+            }
+
+                #contact-section div h1 {
+                    text-transform: capitalize;
+                }
+
+
+
     </style>
 </head>
 <body onload="fadeIn_atstart()" id="bodystart">
@@ -525,11 +558,11 @@
                     </a>
 
 
-                    <a href="#mid-intro-conent" class="nav-links">
+                    <a href="#contact-section" class="nav-links">
                         <span id="contact-name" class="nav-nameselector" name="contact">
                             Contact Us
                         </span>
-                     </a>
+                    </a>
 
                 </span>
             </div>
@@ -538,7 +571,7 @@
 
             <div id="homescreen-content">
                 <div id="starting-intro-conent">
-                    <h1 style="width: 50%; left: 50%; position: absolute; transform: translateX(-50%); top: 245px; font-weight:350;" id="my-company-name" >Apotheosis <b style="font-weight: 450;"> Mind</b></h1>
+                    <h1 style="width: 50%; left: 50%; position: absolute; transform: translateX(-50%); top: 245px; font-weight:350;" id="my-company-name">Apotheosis <b style="font-weight: 450;"> Mind</b></h1>
                     <span style="position:absolute; left:50%; transform: translateX(-50%); top: 325px; color: white" id="my-company-name"> Get your customized Software and games.</span>
                     <span id="buttons-heading" style="position:absolute; top:400px; left: 50%; transform: translateX(-50%);">
                         <a href="#mid-intro-conent" class="nav-links">
@@ -688,10 +721,45 @@
                                 <button class="download-btn"><i class="fa fa-download"></i> </button>
                             </div>
 
-
                         </center>
                     </div>
                 </div>
+
+
+                <center>
+
+                <div id="contact-section">
+                    <div>
+                        <h1>
+                            Apotheosis Mind
+                        </h1>
+                    </div>
+
+                    <div>
+                        <h1>
+                            Useful Links
+                        </h1>
+                    </div>
+
+                    <div>
+                        <h1>
+                            Contact Us
+                        </h1>
+                    </div>
+
+                    <div>
+                        <h1>
+                            Our Newsletter
+                        </h1>
+                    </div>
+
+                    </center>
+
+
+                </div>
+
+
+
             </div>
 
             <div id="adjust-my-image">
@@ -711,7 +779,15 @@
                     <a href="mailto:sahil242bhatiya@gmail.com" id="email-link"> Email</a>
                 </div>
             </div>
+
+
+
+          
+
+
         </div>
+
+        
 
         <script>
 
@@ -725,22 +801,22 @@
                     if (opacity1 <= 0) {
                         clearInterval(id1);
                         document.getElementById("loading").style.display = "none";
-                        
+
                     }
                     else {
                         opacity1 -= 0.009;
                         elem1.style.opacity = opacity1;
                         if (opacity1 <= 0.8 && runonce == false) {
                             runonce = true;
-                            
+
                             document.getElementById("loading-screen").style.display = "none";
-                            
+
                             document.getElementById("fullscreen-loading").style.display = "none";
-                            
-                            
-                            
+
+
+
                         }
-                        
+
                     }
                 }
 
