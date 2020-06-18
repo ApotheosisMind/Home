@@ -189,7 +189,7 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: absolute;
-    top: 3750px;
+    top: 3950px;
     width: 100%;
     left: 50%;
     transform: translateX(-50%);
@@ -214,7 +214,7 @@
 
 #last-section {
     position: absolute;
-    top: 4000px;
+    top: 4200px;
     background-color: #1c4fc3;
     color: white;
     height: 100px;
@@ -232,7 +232,7 @@
 
 #contact-section-start {
     position: absolute;
-    top: 3050px;
+    top: 3250px;
     width: 100%;
     min-height: 500px;
 }
@@ -344,6 +344,7 @@ input:focus {
         top: -200px;
         word-spacing: 4.5px;
         padding: 20px;
+        
     }
 
     .projet-content h1{
@@ -359,19 +360,31 @@ input:focus {
     border-radius: 50px;
 }
 
+    .image-box:hover .projet-content p{
+        color: black;
+    }
+
+    .image-box:hover .projet-content h1 {
+        color: #68a5ff;
+    }
+
+    .image-box:hover .download-btn {
+        background-color: #4885ef;
+    }
 
 
-.download-btn {
-    position: absolute;
-    border: 0px;
-    right: 30px;
-    top: -250px;
-    background-color: rgba(22, 83, 189, 255);
-    color: white;
-    border-radius: 20px;
-    padding: 10px 30px;
-}
+    .download-btn {
+        position: absolute;
+        border: 0px;
+        right: 30px;
+        top: -250px;
+        background-color: rgba(22, 83, 189, 255);
+        color: white;
+        border-radius: 20px;
+        padding: 10px 30px;
+    }
 
     .download-btn:focus {
         outline: none;
     }
+
