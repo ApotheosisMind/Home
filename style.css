@@ -129,7 +129,7 @@
     #mid-intro-conent h1 {
         color: #4885ef;
         padding: 10px 0px;
-        font-weight: 350;
+        font-weight: 400;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
@@ -166,7 +166,7 @@
     #project-section-outer #project-section-1 h1 {
         color: #4885ef;
         padding: 10px 0px;
-        font-weight: 350;
+        font-weight: 400;
         padding-right: 20px;
         font-size: 40px;
     }
@@ -293,6 +293,7 @@ input:focus {
     font-size: 40px;
     padding: 50px 0px;
     width: 100%;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -349,7 +350,7 @@ input:focus {
         color: #4885ef;
        position:absolute;
        top: -250px;
-        font-weight: 400;
+        font-weight: 300;
         margin-left: 20px;
     }
 
