@@ -27,11 +27,11 @@
 
 #head-right-content {
     position: fixed;
-    top: 20px;
+    top: 22px;
     font-size: 19px;
     background-color: rgba(52,113,219, 225);
     right: 50px;
-    height: 45px;
+    height: 43px;
     overflow: hidden;
 }
 
