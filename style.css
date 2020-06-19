@@ -11,23 +11,27 @@
 }
 
 #head-inner {
-    padding: 17px;
+    height: 70px;
     overflow: hidden;
 }
 
 #company-name {
     color: white;
     font-size: 24px;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
     font-weight: 300;
 }
 
 #head-right-content {
     position: fixed;
-    top: 18px;
+    top: 20px;
     font-size: 19px;
     background-color: rgba(52,113,219, 225);
     right: 50px;
-    height: auto;
+    height: 45px;
     overflow: hidden;
 }
 
