@@ -7,6 +7,7 @@
     z-index: 1;
     position: fixed;
     top: 0px;
+    overflow: hidden;
 }
 
 #head-inner {
@@ -26,13 +27,13 @@
     font-size: 19px;
     background-color: rgba(52,113,219, 225);
     right: 50px;
-    height: 46px;
+    height: auto;
     overflow: hidden;
 }
 
 .nav-nameselector {
     background-color: rgba(52,113,219, 225);
-    margin-bottom: 0px;
+    margin-top: 0px;
     margin-left: 35px;
     padding: 5px;
     border-bottom-color: rgba(52,113,219, 225);
