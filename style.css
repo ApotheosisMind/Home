@@ -305,6 +305,7 @@ input:focus {
     position: fixed;
     bottom: 50px;
     left: 50%;
+    font-weight: 700;
     transform: translateX(-50%);
     border-radius: 20px;
     opacity: 0;
