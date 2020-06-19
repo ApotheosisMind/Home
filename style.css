@@ -317,7 +317,7 @@ input:focus {
     width: 100%;
     padding-top: 20px;
     height: 300px;
-    transition: 1s all;
+    transition: 0.7s all;
 }
 
 
@@ -347,16 +347,17 @@ input:focus {
         
     }
 
-    .projet-content h1{
+    .projet-content h1 {
         color: #4885ef;
-       position:absolute;
-       top: -250px;
+        position: absolute;
+        top: -250px;
         font-weight: 300;
         margin-left: 20px;
+        font-size: 28px;
     }
 
 .image-box:hover {
-    background-color: #FFF8DC;
+    background-color: #EFEFEF;
     border-radius: 50px;
 }
 
@@ -366,6 +367,7 @@ input:focus {
 
     .image-box:hover .projet-content h1 {
         color: #68a5ff;
+     
     }
 
     .image-box:hover .download-btn {
