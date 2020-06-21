@@ -200,7 +200,7 @@ input {
 
 @media (max-width: 767px) {
   #fon-inc {
-    font-size: 9px;
+    font-size: 13px;
   }
 }
 
@@ -215,5 +215,9 @@ input {
     height: 42px;
     background-color: #1c4fc3;
   }
+}
+
+#last-para-salutaion {
+  height: 0px;
 }
 
