@@ -264,3 +264,9 @@ input {
   }
 }
 
+@media (min-width: 992px) {
+  #para-conent {
+    font-size: 18px;
+  }
+}
+
