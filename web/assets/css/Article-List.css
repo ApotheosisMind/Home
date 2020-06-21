@@ -80,3 +80,9 @@
   font-weight: 300;
 }
 
+@media (max-width: 700px) {
+  #last-para-salutaion {
+    font-size: 10px;
+  }
+}
+
