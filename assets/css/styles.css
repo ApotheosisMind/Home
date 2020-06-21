@@ -168,7 +168,7 @@
 @media (min-width: 768px) {
   #link-to-web {
     font-size: 29px;
-    font-weight: 300;
+    font-weight: -1;
   }
 }
 
