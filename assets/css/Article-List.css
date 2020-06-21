@@ -96,3 +96,9 @@
   font-size: 10px;
 }
 
+#about-us-content-section {
+  background-size: 50%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
