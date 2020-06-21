@@ -1,0 +1,97 @@
+.navbar-expand-md .navbar-nav {
+  right: 10px;
+  position: absolute;
+  background-color: #1c4fc3;
+  text-align: center;
+}
+
+#home {
+  background-image: url("../../assets/img/intro-bg-start.png");
+  background-size: 100% 100%;
+  height: 500px;
+  padding: 10px 10px;
+}
+
+.jumbotron {
+  max-width: 700px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 300px) {
+  #apotheosismind-intro {
+    font-size: 36px;
+  }
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+#get-started-button {
+  border-radius: 20px;
+}
+
+#Project-button {
+  border-radius: 20px;
+  border-color: white;
+}
+
+@media (min-width: 700px) {
+  #apotheosismind-intro {
+    font-size: 46px;
+  }
+}
+
+@media (min-width: 768px) {
+  #inrto-para {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+  #get-started-button {
+    font-size: 22px;
+    min-width: 162px;
+    border-radius: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  #Project-button {
+    font-size: 22px;
+    border-radius: 30px;
+    min-width: 141px;
+  }
+}
+
+@media (min-width: 768px) {
+  #about-us-section {
+    font-size: 46px;
+  }
+}
+
+@media (min-width: 768px) {
+  #project-heading {
+    font-size: 76px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 768px) {
+  #about-us-content {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+  #project-sec-conent {
+    font-size: 22px;
+  }
+}
+
+#last-section {
+  background-size: 100% 100%;
+}
+
