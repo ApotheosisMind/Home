@@ -42,11 +42,13 @@
   text-align: center;
 }
 
-.article-list .item .name {
-  font-weight: bold;
-  font-size: 16px;
-  margin-top: 20px;
-  color: inherit;
+@media (min-width: 300px) {
+  .article-list .item .name {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 20px;
+    color: inherit;
+  }
 }
 
 .article-list .item .description {

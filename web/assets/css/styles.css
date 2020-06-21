@@ -95,3 +95,27 @@
   background-size: 100% 100%;
 }
 
+@media (min-width: 576px) {
+  .article-list .item .description {
+    font-size: 10px;
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  #fon-inc {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 300px) {
+  #para-conent {
+    font-size: 8px;
+  }
+}
+
+#last-section-mb {
+  max-height: 400px;
+}
+
