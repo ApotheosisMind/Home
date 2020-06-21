@@ -177,3 +177,29 @@ input {
 #image-size-porject {
 }
 
+#row-article-last {
+  max-height: 200px;
+}
+
+#contanier-for-last {
+  margin-top: 0;
+}
+
+@media (min-width: 992px) {
+  #last-section-mb {
+    height: 284px;
+  }
+}
+
+@media (max-width: 767px) {
+  #fon-inc {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 575px) {
+  #last-content-last {
+    height: 100px;
+  }
+}
+

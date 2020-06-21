@@ -92,7 +92,7 @@
 @media (min-width: 576px) {
   .article-list .item .description {
     font-size: 10px;
-    margin-top: 15px;
+    margin-top: 11px;
     margin-bottom: 0;
   }
 }
@@ -106,23 +106,27 @@
 @media (min-width: 768px) {
   #para-conent {
     font-size: 15px;
+    line-height: 16px;
   }
 }
 
 @media (min-width: 576px) {
   #para-conent {
     font-size: 12px;
+    line-height: 14px;
   }
 }
 
-@media (min-width: 300px) {
+@media (max-width: 500px) {
   #para-conent {
     font-size: 8px;
+    width: 100%;
+    line-height: 9px;
   }
 }
 
 #last-section-mb {
-  max-height: 400px;
+  max-height: 350px;
 }
 
 @media (min-width: 576px) {
@@ -131,19 +135,9 @@
   }
 }
 
-#last-section-mb {
-  max-height: 350px;
-}
-
-@media (min-width: 300px) {
+@media (max-width: 575px) {
   #row-article-last {
-    max-height: 200px;
-  }
-}
-
-@media (min-width: 768px) {
-  #para-conent {
-    font-size: 17px;
+    line-height: 6px;
   }
 }
 

@@ -38,15 +38,15 @@
 
 .article-list .item {
   padding-top: 50px;
-  min-height: 200px;
+  min-height: 100px;
   text-align: center;
 }
 
-@media (min-width: 300px) {
+@media (max-width: 500px) {
   .article-list .item .name {
     font-weight: bold;
-    font-size: 12px;
-    margin-top: 20px;
+    font-size: 8px;
+    margin-top: -66px;
     color: inherit;
   }
 }
@@ -88,7 +88,8 @@
 
 @media (max-width: 500px) {
   #last-section-mb {
-    max-height: 200px;
+    max-height: 50px;
+    height: 200px;
   }
 }
 
