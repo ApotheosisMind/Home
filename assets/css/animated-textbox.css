@@ -191,15 +191,29 @@ input {
   }
 }
 
+@media (min-width: 576px) {
+  #fon-inc {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
 @media (max-width: 767px) {
   #fon-inc {
-    font-size: 13px;
+    font-size: 9px;
   }
 }
 
 @media (max-width: 575px) {
   #last-content-last {
     height: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  #last-para-salutaion {
+    height: 42px;
+    background-color: #1c4fc3;
   }
 }
 

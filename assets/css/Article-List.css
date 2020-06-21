@@ -42,11 +42,11 @@
   text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 575px) {
   .article-list .item .name {
     font-weight: bold;
     font-size: 8px;
-    margin-top: -66px;
+    margin-top: -48px;
     color: inherit;
   }
 }
@@ -86,7 +86,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 575px) {
   #last-section-mb {
     max-height: 50px;
     height: 200px;
