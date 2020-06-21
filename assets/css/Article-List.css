@@ -42,15 +42,6 @@
   text-align: center;
 }
 
-@media (max-width: 575px) {
-  .article-list .item .name {
-    font-weight: bold;
-    font-size: 8px;
-    margin-top: -48px;
-    color: inherit;
-  }
-}
-
 .article-list .item .description {
   font-size: 14px;
   margin-top: 15px;
@@ -88,8 +79,8 @@
 
 @media (max-width: 575px) {
   #last-section-mb {
-    max-height: 50px;
-    height: 200px;
+    max-height: 51px;
+    height: 181px;
   }
 }
 

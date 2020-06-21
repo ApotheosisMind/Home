@@ -177,36 +177,9 @@ input {
 #image-size-porject {
 }
 
-#row-article-last {
-  max-height: 200px;
-}
-
-#contanier-for-last {
-  margin-top: 0;
-}
-
 @media (min-width: 992px) {
   #last-section-mb {
     height: 284px;
-  }
-}
-
-@media (min-width: 576px) {
-  #fon-inc {
-    font-size: 15px;
-    font-weight: bold;
-  }
-}
-
-@media (max-width: 767px) {
-  #fon-inc {
-    font-size: 13px;
-  }
-}
-
-@media (max-width: 575px) {
-  #last-content-last {
-    height: 100px;
   }
 }
 
@@ -219,5 +192,75 @@ input {
 
 #last-para-salutaion {
   height: 0px;
+}
+
+@media (max-width: 767px) {
+  #last-section-mb {
+    max-height: 274px;
+  }
+}
+
+#contanier-for-last {
+  margin-top: -60px;
+}
+
+@media (max-width: 991px) {
+  #fon-inc {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  #fon-inc {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  #fon-inc {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  #para-conent {
+    font-size: 11px;
+    line-height: 12px;
+  }
+}
+
+@media (max-width: 575px) {
+  #para-conent {
+    font-size: 9px;
+    line-height: 11px;
+  }
+}
+
+@media (max-width: 575px) {
+  #row-article-last {
+    height: 0px;
+  }
+}
+
+#last-content-last {
+  max-height: 100px;
+}
+
+@media (max-width: 991px) {
+  #last-section-mb {
+    height: 243px;
+  }
+}
+
+@media (max-width: 767px) {
+  #last-section-mb {
+    height: 200px;
+  }
+}
+
+@media (max-width: 575px) {
+  #contanier-for-last {
+    margin-top: -70px;
+  }
 }
 
