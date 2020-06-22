@@ -294,7 +294,7 @@ input {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #footer-back-img {
     background-size: 768px 100%;
   }
