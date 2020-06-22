@@ -270,3 +270,39 @@ input {
   }
 }
 
+@media (max-width: 768px) {
+  #home {
+    background-size: 768px 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  #home {
+    background-size: 100% 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  #apotheosismind-intro {
+    margin-top: 82px;
+  }
+}
+
+@media (max-width: 767px) {
+  #apotheosismind-intro {
+    margin-top: 68px;
+  }
+}
+
+@media (max-width: 768px) {
+  #footer-back-img {
+    background-size: 768px 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  #footer-back-img {
+    background-size: 100% 100%;
+  }
+}
+
