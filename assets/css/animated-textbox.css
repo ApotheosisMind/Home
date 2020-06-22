@@ -291,7 +291,7 @@ input {
 
 @media (max-width: 767px) {
   #apotheosismind-intro {
-    margin-top: 68px;
+    margin-top: 71px;
   }
 }
 
@@ -329,5 +329,11 @@ content-para-about {
 
 .caption.v-middle.text-center {
   color: white;
+}
+
+@media (min-width: 768px) {
+  #apotheosismind-intro {
+    margin-top: 70px;
+  }
 }
 
