@@ -327,3 +327,7 @@ content-para-about {
   word-spacing: 5px;
 }
 
+.caption.v-middle.text-center {
+  color: white;
+}
+
