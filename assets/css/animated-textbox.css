@@ -273,6 +273,7 @@ input {
 @media (max-width: 768px) {
   #home {
     background-size: 768px 100%;
+    background-position: center;
   }
 }
 
@@ -297,6 +298,7 @@ input {
 @media (max-width: 767px) {
   #footer-back-img {
     background-size: 768px 100%;
+    background-position: center;
   }
 }
 
