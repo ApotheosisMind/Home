@@ -346,6 +346,14 @@ content-para-about {
 @media (max-width: 767px) {
   .img-responsive.img-thumbnail.center-block.hidden-sm {
     height: 150px;
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .img-responsive.img-thumbnail.center-block.hidden-sm {
+    max-width: 500px;
+    min-width: 100px;
   }
 }
 
