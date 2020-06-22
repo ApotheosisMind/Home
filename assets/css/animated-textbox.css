@@ -316,3 +316,14 @@ body {
   font-family: "Segoe UI";
 }
 
+content-para-about {
+  font-family: 'SEGOEUIL';
+  font-weight: 500;
+}
+
+#content-para-about {
+  font-family: 'SEGOEUIL';
+  color: black;
+  word-spacing: 5px;
+}
+
