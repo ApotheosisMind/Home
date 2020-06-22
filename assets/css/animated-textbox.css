@@ -338,8 +338,14 @@ content-para-about {
 
 @media (min-width: 700px) {
   #content-para-about {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 400;
+  }
+}
+
+@media (max-width: 767px) {
+  .img-responsive.img-thumbnail.center-block.hidden-sm {
+    height: 150px;
   }
 }
 
