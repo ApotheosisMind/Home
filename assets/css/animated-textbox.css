@@ -308,3 +308,11 @@ input {
   }
 }
 
+body {
+  text-transform: none;
+}
+
+.padding-50-0.border-bottom-1 {
+  font-family: "Segoe UI";
+}
+
