@@ -322,9 +322,8 @@ content-para-about {
 }
 
 #content-para-about {
-  font-family: 'SEGOEUIL';
   color: black;
-  word-spacing: 5px;
+  text-transform: capitalize;
 }
 
 .caption.v-middle.text-center {
@@ -334,6 +333,13 @@ content-para-about {
 @media (min-width: 768px) {
   #apotheosismind-intro {
     margin-top: 70px;
+  }
+}
+
+@media (min-width: 700px) {
+  #content-para-about {
+    font-size: 20px;
+    font-weight: 400;
   }
 }
 
