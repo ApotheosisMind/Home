@@ -82,6 +82,28 @@
   max-width: 100%;
 }
 
-#footer-back-img-1 {
+@media (min-width: 768px) {
+  #footer-back-img-1 {
+    background-size: 100% 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  #footer-back-img-1 {
+    background-size: 768px 100%;
+    background-position: center;
+  }
+}
+
+@media (max-width: 767px) {
+  #last-para-salutaion {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 768px) {
+  #last-para-salutaion {
+    height: 45px;
+  }
 }
 
