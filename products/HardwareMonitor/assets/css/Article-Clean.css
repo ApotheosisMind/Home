@@ -118,3 +118,9 @@
   transform: translateX(-50%);
 }
 
+@media (min-width: 300px) {
+  #carouselExampleIndicators {
+    width: 300px;
+  }
+}
+
