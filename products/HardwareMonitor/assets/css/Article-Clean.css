@@ -135,33 +135,28 @@
   }
 }
 
-@media (max-width: 512px) {
-  .btn.btn-primary.btn-sm.text-center {
-    margin-top: 100px;
-    margin-left: 0px;
-  }
+#carouselExampleIndicators {
+  border-radius: 30px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
   .img-fluid {
-    margin-right: 10px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
   }
 }
 
-@media (min-width: 513px) {
-  .btn.btn-primary.btn-sm.text-center {
-    margin-left: 50px;
-  }
-}
-
-@media (min-width: 513px) {
+@media (min-width: 768px) {
   .img-fluid {
     margin-right: 100px;
   }
 }
 
-.img-fluid {
-  margin-right: 50px;
-  margin-left: 50px;
+@media (min-width: 768px) {
+  .btn.btn-primary.btn-sm.text-center {
+    margin-left: 50px;
+  }
 }
 
