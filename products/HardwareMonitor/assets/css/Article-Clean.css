@@ -107,3 +107,14 @@
   }
 }
 
+.btn.btn-primary.btn-sm.text-center {
+  transform: translateX(-50%);
+  border-radius: 20px;
+}
+
+#carouselExampleIndicators {
+  width: 450px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
