@@ -123,3 +123,45 @@
   }
 }
 
+@media (min-width: 576px) {
+  #carouselExampleIndicators {
+    width: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  #carouselExampleIndicators {
+    width: 600px;
+  }
+}
+
+@media (max-width: 512px) {
+  .btn.btn-primary.btn-sm.text-center {
+    margin-top: 100px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .img-fluid {
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 513px) {
+  .btn.btn-primary.btn-sm.text-center {
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 513px) {
+  .img-fluid {
+    margin-right: 100px;
+  }
+}
+
+.img-fluid {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
