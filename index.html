@@ -2,7 +2,6 @@
 <html style="user-select: none;">
 
 <head>
-	<meta name="msvalidate.01" content="74333956B17703FD54C59E109D00258D" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Apotheosis Mind</title>
@@ -18,6 +17,7 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/SEGOEUIL.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/--mp---Masonry-Gallery-with-Loader.css">
     <link rel="stylesheet" href="assets/css/animated-textbox-1.css">
     <link rel="stylesheet" href="assets/css/animated-textbox.css">
     <link rel="stylesheet" href="assets/css/Animated-Type-Heading.css">
@@ -27,9 +27,14 @@
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Clean.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/Loading-Div.css">
+    <link rel="stylesheet" href="assets/css/Loading-Page-Animation-Style.css">
+    <link rel="stylesheet" href="assets/css/Page-Loader.css">
+    <link rel="stylesheet" href="assets/css/Pre-loader.css">
     <link rel="stylesheet" href="assets/css/project-card.css">
     <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team-with-rotating-cards.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
 <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169926819-1"></script>
@@ -43,6 +48,12 @@
 </head>
 
 <body style="font-family: SEGOEUIL;font-weight: 200;">
+    <div class="page-loader page-loader-show" style="background-color: white;">
+        <div id="ldiv" class="loadingdiv"><img class="loadingdivimg" src="assets/img/loading.gif"></div>
+        <div class="page-loader__spinner"><svg viewBox="25 25 50 50">
+    <circle cx="50" cy="50" r="20" fill="none" strokeWidth="2" strokeMiterlimit="10" />
+</svg></div>
+    </div>
     <nav class="navbar navbar-light navbar-expand-md fixed-top" style="background-color: #2865cf;color: rgb(255,255,255);">
         <div class="container-fluid"><a class="navbar-brand" data-aos="fade-right" data-aos-duration="750" id="link-to-web" href="#home" style="color: #ffffff;font-weight: 100;">Apotheosis <strong>Mind</strong></a><button data-toggle="collapse" class="navbar-toggler shadow-sm" data-target="#navcol-1"
                 data-aos="fade-left" data-aos-duration="450" style="color: #ffffff;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon text-justify" style="background-color: rgba(172,28,195,0);background-image: url(&quot;assets/img/3dot.png&quot;);"></span></button>
@@ -121,7 +132,7 @@
             </div>
             <div class="row projects">
                 <div class="col-sm-6 text-center item" style="padding-top: 60px;padding-bottom: 60px;background-color: #ffffff;">
-                    <div class="card border-white text-center shadow" data-aos="fade-up" data-aos-duration="650" style="width: 230px;margin-left: auto;margin-right: auto;border-radius: 30px;background-color: rgb(250,250,250);">
+                    <div class="card border-white text-center shadow" data-aos="fade-up" data-aos-duration="850" style="width: 230px;margin-left: auto;margin-right: auto;border-radius: 30px;background-color: rgb(250,250,250);">
                         <div class="card-body" style="width: 205px;padding: 0px;margin: 10px;border-radius: 30px;"><img class="d-lg-flex m-auto align-items-lg-center" style="width: 115.31px;height: 115.31px;margin-left: 0px;padding-left: 0px;/*background-image: url(&quot;assets/img/life.png&quot;);*/background-size: 100px 100px;background-position: center;border-color: white;"
                                 src="assets/img/life.png" width="150px" height="150px">
                             <h4 class="card-title" style="margin-top: 5px;color: rgb(0,0,0);">Hardware Monitor</h4>
@@ -129,13 +140,41 @@
                             <p class="text-capitalize card-text" style="width: 180px;margin-top: 15px;margin-bottom: 20px;width: 100%;"><br>it shows the real time CPU, rAM and Hard Drive usage with temperature Monitor.<br><br></p>
                             <div class="btn-group" role="group" style="margin-bottom: 5px;"><button class="btn btn-primary" type="button" style="background-color: rgb(72,72,72);"><a href="products/HardwareMonitor/assets/HardwareMonitor Setup.msi" style="color: rgb(255,255,255);height: 100%;width: 100%;padding-top: 5px;padding-bottom: 5px;padding-right: 5px;padding-left: 5px;">Install</a></button>
                                 <button
-                                    class="btn btn-primary active" type="button" style="margin-left: 7px;background-color: rgb(40,88,198);"><a href="products/HardwareMonitor/" style="color: rgb(255,255,255);height: 100%;width: 100%;padding-top: 5px;padding-bottom: 5px;padding-right: 5px;padding-left: 5px;">Info</a></button>
+                                    class="btn btn-primary active" type="button" style="margin-left: 7px;background-color: rgb(40,88,198);" disabled=""><a href="products/HardwareMonitor/" style="color: rgb(255,255,255);height: 100%;width: 100%;padding-top: 5px;padding-bottom: 5px;padding-right: 5px;padding-left: 5px;">Info</a></button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 text-center item" style="padding-top: 60px;padding-bottom: 60px;background-color: #ffffff;">
-                    <div class="card border-white text-center shadow" data-aos="fade-up" data-aos-duration="650" style="width: 230px;margin-left: auto;margin-right: auto;border-radius: 30px;background-color: rgb(250,250,250);">
+                    <div class="card border-white text-center shadow" data-aos="fade-up" data-aos-duration="850" style="width: 230px;margin-left: auto;margin-right: auto;border-radius: 30px;background-color: rgb(250,250,250);">
+                        <div class="card-body" style="width: 205px;padding: 0px;margin: 10px;border-radius: 30px;"><img class="d-lg-flex m-auto align-items-lg-center" style="width: 115.31px;height: 115.31px;margin-left: 0px;padding-left: 0px;/*background-image: url(&quot;assets/img/life.png&quot;);*/background-size: 100px 100px;background-position: center;border-color: white;"
+                                src="assets/img/life.png" width="150px" height="150px">
+                            <h4 class="card-title" style="margin-top: 5px;color: rgb(0,0,0);">Number Convertor</h4>
+                            <h6 class="text-muted card-subtitle mb-2" style="margin-top: 0px;">Windows</h6>
+                            <p class="text-capitalize card-text" style="width: 180px;margin-top: 15px;margin-bottom: 20px;width: 100%;"><br>it Converts Binary, Hexadecimal, decimal or ocatal number to its requested&nbsp;Binary, Hexadecimal, Decimal Or Ocatal&nbsp;number.<br><br></p>
+                            <div class="btn-group" role="group" style="margin-bottom: 5px;"><button class="btn btn-primary" type="button" style="background-color: rgb(72,72,72);" disabled=""><a style="color: rgb(255,255,255);height: 100%;width: 100%;padding-top: 5px;padding-bottom: 5px;padding-right: 5px;padding-left: 5px;">Install</a></button>
+                                <button
+                                    class="btn btn-primary active" type="button" style="margin-left: 7px;background-color: rgb(40,88,198);" disabled=""><a href="products/HardwareMonitor/" style="color: rgb(255,255,255);height: 100%;width: 100%;padding-top: 5px;padding-bottom: 5px;padding-right: 5px;padding-left: 5px;">Info</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center item" style="padding-top: 60px;padding-bottom: 60px;background-color: #ffffff;">
+                    <div class="card border-white text-center shadow" data-aos="fade-up" data-aos-duration="850" style="width: 230px;margin-left: auto;margin-right: auto;border-radius: 30px;background-color: rgb(250,250,250);">
+                        <div class="card-body" style="width: 205px;padding: 0px;margin: 10px;border-radius: 30px;"><img class="d-lg-flex m-auto align-items-lg-center" style="width: 115.31px;height: 115.31px;margin-left: 0px;padding-left: 0px;/*background-image: url(&quot;assets/img/life.png&quot;);*/background-size: 100px 100px;background-position: center;border-color: white;"
+                                src="assets/img/life.png" width="150px" height="150px">
+                            <h4 class="card-title" style="margin-top: 5px;color: rgb(0,0,0);">Screen Recoder</h4>
+                            <h6 class="text-muted card-subtitle mb-2" style="margin-top: 0px;">Windows</h6>
+                            <p class="text-capitalize card-text" style="width: 180px;margin-top: 15px;margin-bottom: 20px;width: 100%;"><br>stylish and powerfull design with awesome features.<br><br></p>
+                            <div class="btn-group" role="group" style="margin-bottom: 5px;"><button class="btn btn-primary" type="button" style="background-color: rgb(72,72,72);" disabled=""><a style="color: rgb(255,255,255);height: 100%;width: 100%;padding-top: 5px;padding-bottom: 5px;padding-right: 5px;padding-left: 5px;">Install</a></button>
+                                <button
+                                    class="btn btn-primary active" type="button" style="margin-left: 7px;background-color: rgb(40,88,198);" disabled=""><a href="products/HardwareMonitor/" style="color: rgb(255,255,255);height: 100%;width: 100%;padding-top: 5px;padding-bottom: 5px;padding-right: 5px;padding-left: 5px;">Info</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center item" style="padding-top: 60px;padding-bottom: 60px;background-color: #ffffff;">
+                    <div class="card border-white text-center shadow" data-aos="fade-up" data-aos-duration="850" style="width: 230px;margin-left: auto;margin-right: auto;border-radius: 30px;background-color: rgb(250,250,250);">
                         <div class="card-body" style="width: 205px;padding: 0px;margin: 10px;border-radius: 30px;"><img class="d-lg-flex m-auto align-items-lg-center" id="image-size-porject" style="width: 115.31px;height: 115.31px;margin-left: 0px;padding-left: 0px;border-color: white;" src="assets/img/music.png" width="50%" height="50%">
                             <h4
                                 class="card-title" style="margin-top: 5px;color: rgb(0,0,0);">Music Player</h4>
@@ -143,13 +182,13 @@
                                 <p class="text-capitalize card-text" style="width: 180px;margin-top: 15px;margin-bottom: 20px;width: 100%;">Stylish , Powerful and Fast Music Player with Stunning design.<br></p>
                                 <div class="btn-group" role="group" style="margin-bottom: 5px;"><button class="btn btn-primary" type="button" style="background-color: rgb(72,72,72);"><a style="color: rgb(255,255,255);height: 100%;width: 100%;padding-top: 5px;padding-bottom: 5px;padding-right: 5px;padding-left: 5px;" href="products\MusicPlayer\assets\Music Player Setup.msi">Install</a></button>
                                     <button
-                                        class="btn btn-primary active" type="button" style="margin-left: 7px;background-color: rgb(40,88,198);"><a href="products/MusicPlayer/" style="color: rgb(255,255,255);height: 100%;width: 100%;padding-top: 5px;padding-bottom: 5px;padding-right: 5px;padding-left: 5px;">Info</a></button>
+                                        class="btn btn-primary active" type="button" style="margin-left: 7px;background-color: rgb(40,88,198);" disabled=""><a href="products/MusicPlayer/" style="color: rgb(255,255,255);height: 100%;width: 100%;padding-top: 5px;padding-bottom: 5px;padding-right: 5px;padding-left: 5px;">Info</a></button>
                                 </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 text-center item" style="padding-top: 60px;padding-bottom: 60px;background-color: #ffffff;">
-                    <div class="card border-white text-center shadow" data-aos="fade-up" data-aos-duration="650" style="width: 230px;margin-left: auto;margin-right: auto;border-radius: 30px;background-color: rgb(250,250,250);">
+                    <div class="card border-white text-center shadow" data-aos="fade-up" data-aos-duration="850" style="width: 230px;margin-left: auto;margin-right: auto;border-radius: 30px;background-color: rgb(250,250,250);">
                         <div class="card-body" style="width: 205px;padding: 0px;margin: 10px;border-radius: 30px;"><img class="d-lg-flex m-auto align-items-lg-center" id="image-size-porject" style="width: 115.31px;height: 115.31px;margin-left: 0px;padding-left: 0px;border-color: white;" src="assets/img/photoeditor.png" width="50%" height="50%">
                             <h4
                                 class="card-title" style="margin-top: 5px;color: rgb(0,0,0);">Photo Editor</h4>
@@ -163,7 +202,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 text-center item" style="padding-top: 60px;padding-bottom: 60px;background-color: #ffffff;">
-                    <div class="card border-white text-center shadow" data-aos="fade-up" data-aos-duration="650" style="width: 230px;margin-left: auto;margin-right: auto;border-radius: 30px;background-color: rgb(250,250,250);">
+                    <div class="card border-white text-center shadow" data-aos="fade-up" data-aos-duration="850" style="width: 230px;margin-left: auto;margin-right: auto;border-radius: 30px;background-color: rgb(250,250,250);">
                         <div class="card-body" style="width: 205px;padding: 0px;margin: 10px;border-radius: 30px;"><img class="d-lg-flex m-auto align-items-lg-center" id="image-size-porject" style="width: 115.31px;height: 115.31px;margin-left: 0px;padding-left: 0px;border-color: white;" src="assets/img/cameradetection.png" width="50%" height="50%">
                             <h4
                                 class="card-title" style="margin-top: 5px;color: rgb(0,0,0);">Movement Detection</h4>
@@ -177,7 +216,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 text-center item" style="padding-top: 60px;padding-bottom: 60px;background-color: #ffffff;">
-                    <div class="card border-white text-center shadow" data-aos="fade-up" data-aos-duration="650" style="width: 230px;margin-left: auto;margin-right: auto;border-radius: 30px;background-color: rgb(250,250,250);">
+                    <div class="card border-white text-center shadow" data-aos="fade-up" data-aos-duration="850" style="width: 230px;margin-left: auto;margin-right: auto;border-radius: 30px;background-color: rgb(250,250,250);">
                         <div class="card-body" style="width: 205px;padding: 0px;margin: 10px;border-radius: 30px;"><img class="d-lg-flex m-auto align-items-lg-center" id="image-size-porject" style="width: 115.31px;height: 115.31px;margin-left: 0px;padding-left: 0px;border-color: white;" src="assets/img/stock.png" width="50%" height="50%">
                             <h4
                                 class="card-title" style="margin-top: 5px;color: rgb(0,0,0);">Stock Prediction</h4>
@@ -233,8 +272,14 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/digistate/resouces/master/multipleFilterMasonry.js"></script>
+    <script src="https://cdn.rawgit.com/desandro/masonry/master/dist/masonry.pkgd.min.js"></script>
+    <script src="assets/js/--mp---Masonry-Gallery-with-Loader.js"></script>
     <script src="assets/js/Animated-Type-Heading.js"></script>
     <script src="assets/js/Bootstrap-Spinner-Best-Preloader.js"></script>
+    <script src="assets/js/Loading-Page-Animation-Style.js"></script>
+    <script src="assets/js/Page-Loader.js"></script>
 </body>
 
 </html>
