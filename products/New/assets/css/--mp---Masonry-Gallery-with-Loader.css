@@ -181,7 +181,7 @@ body::-webkit-scrollbar {
 }
 
 #squarebox-7 {
-  top: 110%;
+  top: 150%;
   height: 30%;
   left: 15%;
   opacity: 0.3;
@@ -190,36 +190,48 @@ body::-webkit-scrollbar {
 #squarebox-13 {
   height: 40%;
   right: 10%;
-  top: 150%;
+  top: 180%;
 }
 
 #squarebox-14 {
   height: 10%;
   left: 50%;
   right: 50%;
-  top: 120%;
+  top: 210%;
   opacity: 0.5;
 }
 
 #squarebox-8 {
-  top: 146%;
+  top: 240%;
   left: 5%;
   right: 95%;
   height: 40%;
 }
 
 #squarebox-9 {
-  top: 200%;
+  top: 270%;
   left: 75%;
   right: 25%;
   opacity: 0.5;
 }
 
 #squarebox-10 {
-  top: 230%;
+  top: 300%;
   left: 20%;
   right: 75%;
   height: 10%;
   opacity: 0.7;
+}
+
+#inrto-para {
+  font-weight: bolder;
+}
+
+.shadowBtnCard {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.CardMouseCan {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
