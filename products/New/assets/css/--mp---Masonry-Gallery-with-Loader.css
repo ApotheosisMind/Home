@@ -191,6 +191,7 @@ body::-webkit-scrollbar {
   height: 40%;
   right: 10%;
   top: 180%;
+  opacity: 60%;
 }
 
 #squarebox-14 {
@@ -206,6 +207,7 @@ body::-webkit-scrollbar {
   left: 5%;
   right: 95%;
   height: 40%;
+  opacity: 15%;
 }
 
 #squarebox-9 {
