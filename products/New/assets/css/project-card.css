@@ -89,7 +89,6 @@ button:focus {
   min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
-  /*background-clip: border-box;*/
   margin: 10px;
 }
 
