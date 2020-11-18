@@ -48,16 +48,6 @@
 
         gtag('config', 'UA-169926819-1');
     </script>
-
-    <script src="./javascripts/rellax.min.js"></script>
-    <script>
-      var rellax = new Rellax('.rellax', {
-        center: true
-      });
-      var rellaxNonCentered = new Rellax('.rellax-non-centered', {
-        center: false
-      });
-    </script>
 </head>
 
 <body style="font-family: LuloCleanW01-One;font-weight: 200;">
@@ -96,12 +86,6 @@
             <p data-aos="fade-up" data-aos-duration="450" data-aos-offset="-100" data-aos-delay="800" id="inrto-para" style="color: rgb(255,255,255);margin-bottom: 70px;font-family: 'Along Sans';font-size: 15px;">GET YOUR BRAND RECOGNISED</p>
             <p data-aos="fade-up" data-aos-duration="450" data-aos-offset="-100" data-aos-delay="950" style="margin-top: -50px;"><button class="btn btn-primary" id="Project-button" type="button" style="color: rgb(255,255,255);background-color: rgba(255,255,255,0);font-family: 'Along Sans';font-size: 14px;transform: rotate(90deg);height: 35px;width: 35px;" onclick="window.location=&#39;#project-heading&#39;">&gt;</button></p>
         </div>
-        <div id="squarebox-7" class="rellax page_design" data-rellax-speed="4"><img id="squarebox-image-6" src="assets/img/small-black-circle.svg" height="20%"></div>
-        <div id="squarebox-13" class="rellax page_design" data-rellax-speed="10"><img id="squarebox-image-12" src="assets/img/small-black-circle.svg" height="20%"></div>
-        <div id="squarebox-14" class="rellax page_design" data-rellax-speed="5"><img id="squarebox-image-13" src="assets/img/small-black-circle.svg" height="20%"></div>
-        <div id="squarebox-8" class="rellax page_design" data-rellax-speed="-10"><img id="squarebox-image-7" src="assets/img/small-black-circle.svg" height="20%"></div>
-        <div id="squarebox-9" class="rellax page_design" data-rellax-speed="7"><img id="squarebox-image-8" src="assets/img/small-black-circle.svg" height="20%"></div>
-        <div id="squarebox-10" class="rellax page_design" data-rellax-speed="-5"><img id="squarebox-image-9" src="assets/img/small-black-circle.svg" height="20%"></div>
     </div>
     <div class="projects-horizontal" style="font-family: 'Along Sans';border-color: rgb(160,160,160);">
         <div class="container">
@@ -234,9 +218,11 @@
     </div>
     <div class="footer-basic" style="background: rgb(245,245,245);min-height: 250px;">
         <footer style="margin-bottom: auto;">
-            <div class="social" style="color: #373737;margin-bottom: 50px;"><a href="#" style="color: #373737;"><i class="icon ion-social-instagram"></i></a><a href="#" style="color: #373737;"><i class="icon ion-social-snapchat"></i></a><a href="#" style="color: #373737;"><i class="icon ion-social-twitter"></i></a>
+            <div class="social" style="color: #373737;margin-bottom: 50px;"><a href="#" style="color: #373737;box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);"><i class="icon ion-social-instagram"></i></a>
                 <a
-                    href="#" style="color: #373737;"><i class="icon ion-social-facebook"></i></a>
+                    href="#" style="color: #373737;box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);"><i class="icon ion-social-snapchat"></i></a><a href="#" style="color: #373737;box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);"><i class="icon ion-social-twitter"></i></a>
+                    <a
+                        href="#" style="color: #373737;box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);"><i class="icon ion-social-facebook"></i></a>
             </div>
             <ul class="list-inline" style="color: #373737;font-size: 13px;">
                 <li class="list-inline-item"><a href="#">Home</a></li>
@@ -247,31 +233,7 @@
             </ul>
             <p class="copyright" style="color: #373737;font-size: 13px;">APOTHEOSIS MIND © 2020</p>
         </footer>
-    </div><script>
-    var card = $(".cardMovehover");
-
-$(document).on("mousemove",function(e) {  
-  var ax = -($(window).innerWidth()/2- e.pageX)/20;
-  var ay = ($(window).innerHeight()/2- e.pageY)/10;
-  card.attr("style", "transform: rotateY("+ax+"deg) rotateX("+ay+"deg);-webkit-transform: rotateY("+ax+"deg) rotateX("+ay+"deg);-moz-transform: rotateY("+ax+"deg) rotateX("+ay+"deg)");
-});
-</script>
-
-<script> 
-    (function(h,f){"function"===typeof define&&define.amd?define([],f):"object"===typeof module&&module.exports?module.exports=f():h.Rellax=f()})(this,function(){var h=function(f,l){var b=Object.create(h.prototype),g=0,k=0,c=[],p=!1,u=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.msRequestAnimationFrame||window.oRequestAnimationFrame||function(a){setTimeout(a,1E3/60)},m=function(a,b,d){return a<=b?b:a>=d?d:a};b.options={speed:-2,center:!1};l&&
-Object.keys(l).forEach(function(a){b.options[a]=l[a]});b.options.speed=m(b.options.speed,-10,10);f||(f=".rellax");var q=document.querySelectorAll(f);if(0<q.length)b.elems=q;else throw Error("The elements you're trying to select don't exist.");var v=function(a){var e=a.getAttribute("data-rellax-percentage"),d=a.getAttribute("data-rellax-speed"),c=e||b.options.center?window.pageYOffset||document.documentElement.scrollTop||document.body.scrollTop:0,f=c+a.getBoundingClientRect().top,h=a.clientHeight||
-a.offsetHeight||a.scrollHeight,g=e?e:(c-f+k)/(h+k);b.options.center&&(g=.5);c=d?m(d,-10,10):b.options.speed;if(e||b.options.center)c=m(d||b.options.speed,-5,5);e=Math.round(100*c*(1-g));a=a.style.cssText;d="";0<=a.indexOf("transform")&&(d=a.indexOf("transform"),d=a.slice(d),d=(g=d.indexOf(";"))?" "+d.slice(11,g).replace(/\s/g,""):" "+d.slice(11).replace(/\s/g,""));return{base:e,top:f,height:h,speed:c,style:a,transform:d}},r=function(){var a=g;g=void 0!==window.pageYOffset?window.pageYOffset:(document.documentElement||
-document.body.parentNode||document.body).scrollTop;return a!=g?!0:!1},t=function(){r()&&!1===p&&n();u(t)},n=function(){for(var a=0;a<b.elems.length;a++){var e=" translate3d(0,"+(Math.round(100*c[a].speed*(1-(g-c[a].top+k)/(c[a].height+k)))-c[a].base)+"px,0)"+c[a].transform;b.elems[a].style.cssText=c[a].style+"-webkit-transform:"+e+";-moz-transform:"+e+";transform:"+e+";"}};b.destroy=function(){for(var a=0;a<b.elems.length;a++)b.elems[a].style.cssText=c[a].style;p=!0};(function(){k=window.innerHeight;
-r();for(var a=0;a<b.elems.length;a++){var e=v(b.elems[a]);c.push(e)}window.addEventListener("resize",function(){n()});t();n()})();return b};return h});
-</script>
-    <script>
-        var rellax = new Rellax('.rellax', {
-            center: true
-        });
-        var rellaxNonCentered = new Rellax('.rellax-non-centered', {
-            center: false
-        });
-</script><a data-aos="fade-down" id="scroll-to-top" title="Scroll to top" href="#home" style="border-radius: 50%;margin-bottom: 10px;margin-right: -20px;width: 40px;height: 40px;background: rgb(46,127,243);box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);color: rgb(42,121,243);"><i class="fas fa-angle-up"></i></a>
+    </div><a data-aos="fade-down" id="scroll-to-top" title="Scroll to top" href="#home" style="border-radius: 50%;margin-bottom: 10px;margin-right: -20px;width: 40px;height: 40px;background: rgb(46,127,243);box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);color: rgb(42,121,243);"><i class="fas fa-angle-up"></i></a>
     <script
         src="assets/js/jquery.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
