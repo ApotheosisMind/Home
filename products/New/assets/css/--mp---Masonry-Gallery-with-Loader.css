@@ -82,9 +82,6 @@
   background-color: transparent;
 }
 
-div {
-}
-
 #squarebox {
   padding: 20px;
   position: absolute;
@@ -253,6 +250,13 @@ body::-webkit-scrollbar {
 @media (min-width: 570px) {
   #Main_Logo {
     margin-top: -180px;
+  }
+}
+
+@media (min-width: 576px) {
+  #customchanging {
+    margin-top: -20px;
+    font-size: 11px;
   }
 }
 
