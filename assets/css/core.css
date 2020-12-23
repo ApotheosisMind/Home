@@ -15,7 +15,7 @@ ul li {
 /* line 122, src/assets/scss/abstracts/_variables.scss */
 
 .body-color {
-    color: #8e9baf !important
+    color: rgb(15, 124, 255) !important
 }
 
 
@@ -25,7 +25,7 @@ ul li {
 /* line 36, src/assets/scss/abstracts/_themes-main.scss */
 
 .pageloader {
-    background-color: #8c8cf9 !important
+    background-color: rgb(15, 124, 255) !important
 }
 
 
@@ -33,7 +33,7 @@ ul li {
 
 .hero.is-theme-primary,
 .section.is-theme-primary {
-    background-color: #8c8cf9
+    background-color: rgb(15, 124, 255)
 }
 
 
@@ -83,12 +83,12 @@ ul li {
 /* line 23, src/assets/scss/layout/_utils.scss */
 
 *::-moz-selection {
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     color: #fff
 }
 
 *::selection {
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     color: #fff
 }
 
@@ -119,7 +119,7 @@ span:active {
 /* line 37, src/assets/scss/layout/_utils.scss */
 
 a:focus {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -362,7 +362,7 @@ body #backtotop a {
     height: 32px;
     width: 32px;
     border-radius: 50%;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     -webkit-transform: scale(0.7);
     transform: scale(0.7);
     -webkit-transition: all .5s;
@@ -443,7 +443,7 @@ body #backtotop a {
 /* line 252, src/assets/scss/layout/_utils.scss */
 
 .progress.primary::-webkit-progress-value {
-    background-color: #8c8cf9 !important
+    background-color: rgb(15, 124, 255) !important
 }
 
 
@@ -581,7 +581,7 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     left: 0;
     bottom: 0;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     -webkit-transition: width .3s;
     transition: width .3s
 }
@@ -706,7 +706,7 @@ body::-webkit-scrollbar-thumb {
 /* line 162, src/assets/scss/layout/_navbar.scss */
 
 .navbar-wrapper .navbar-item.is-button:hover>.button.primary-btn {
-    background: #8c8cf9 !important
+    background: rgb(15, 124, 255) !important
 }
 
 
@@ -728,14 +728,14 @@ body::-webkit-scrollbar-thumb {
 
 .navbar-wrapper .navbar-link:hover {
     background: transparent !important;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
 /* line 183, src/assets/scss/layout/_navbar.scss */
 
 .navbar-wrapper .navbar-link:hover:after {
-    border-color: #8c8cf9
+    border-color: rgb(15, 124, 255)
 }
 
 
@@ -1308,7 +1308,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-transform-origin: right center;
     transform-origin: right center;
     height: 1.4px;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     -webkit-transform: scale(0, 1);
     transform: scale(0, 1);
     -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -1332,8 +1332,8 @@ body::-webkit-scrollbar-thumb {
 /* line 95, src/assets/scss/layout/_navbar-landing.scss */
 
 .navbar.navbar-landing .navbar-item .cta-button {
-    background: #8c8cf9;
-    border-color: #8c8cf9
+    background: rgb(15, 124, 255);
+    border-color: rgb(15, 124, 255)
 }
 
 
@@ -1350,7 +1350,7 @@ body::-webkit-scrollbar-thumb {
 
 .navbar.navbar-landing .navbar-item:hover,
 .navbar.navbar-landing .navbar-item:active {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -1439,7 +1439,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-transform-origin: right center;
     transform-origin: right center;
     height: 1.4px;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     -webkit-transform: scale(0, 1);
     transform: scale(0, 1);
     -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -1874,7 +1874,7 @@ body::-webkit-scrollbar-thumb {
 /* line 47, src/assets/scss/layout/_sections.scss */
 
 .section.section-primary {
-    background-color: #8c8cf9
+    background-color: rgb(15, 124, 255)
 }
 
 
@@ -2023,7 +2023,7 @@ body::-webkit-scrollbar-thumb {
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     z-index: 0
 }
 
@@ -2166,7 +2166,7 @@ body::-webkit-scrollbar-thumb {
 
 .section .icon-subtitle i {
     font-size: 2.4rem;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -2176,7 +2176,7 @@ body::-webkit-scrollbar-thumb {
     margin: 10px 0;
     width: 80px;
     height: 5px;
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -2197,7 +2197,7 @@ body::-webkit-scrollbar-thumb {
 /* line 257, src/assets/scss/layout/_sections.scss */
 
 .section .feature-headline {
-    color: #8c8cf9 !important;
+    color: rgb(15, 124, 255) !important;
     line-height: 1.2;
     padding: 5px 0;
     margin-bottom: 0 !important
@@ -2432,7 +2432,7 @@ body::-webkit-scrollbar-thumb {
 /* line 30, src/assets/scss/layout/_hero.scss */
 
 .hero.is-theme-primary {
-    background-color: #8c8cf9
+    background-color: rgb(15, 124, 255)
 }
 
 
@@ -2600,7 +2600,7 @@ body::-webkit-scrollbar-thumb {
 /* line 126, src/assets/scss/layout/_hero.scss */
 
 .hero.is-app-grey {
-    background-color: #f5f6fa
+    background-color: #f9f9f9;
 }
 
 
@@ -2636,7 +2636,7 @@ body::-webkit-scrollbar-thumb {
 /* line 147, src/assets/scss/layout/_hero.scss */
 
 .hero.is-light-grey .title.theme {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -3198,7 +3198,7 @@ footer.footer-dark .footer-column ul.link-list :hover {
 /* line 79, src/assets/scss/layout/_footer.scss */
 
 footer.footer-dark .footer-column .level-item .icon {
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     -webkit-transition: all 0.5s;
     transition: all 0.5s
 }
@@ -3304,7 +3304,7 @@ footer.footer-light .footer-column ul.link-list a {
 /* line 155, src/assets/scss/layout/_footer.scss */
 
 footer.footer-light .footer-column ul.link-list :hover {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -3392,8 +3392,8 @@ footer.footer-light-left .footer-nav-right .footer-nav-link:hover {
 /* line 214, src/assets/scss/layout/_footer.scss */
 
 footer.footer-light-left .footer-nav-right .footer-nav-link.is-active {
-    color: #8c8cf9 !important;
-    border-bottom: 2px solid #8c8cf9 !important
+    color: rgb(15, 124, 255) !important;
+    border-bottom: 2px solidrgb(15, 124, 255) !important
 }
 
 
@@ -3409,7 +3409,7 @@ footer.footer-light-left .level-item .icon {
 /* line 225, src/assets/scss/layout/_footer.scss */
 
 footer.footer-light-left .level-item .icon :hover {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -3486,8 +3486,8 @@ footer.footer-dark-left .footer-nav-right .footer-nav-link:hover {
 /* line 280, src/assets/scss/layout/_footer.scss */
 
 footer.footer-dark-left .footer-nav-right .footer-nav-link.is-active {
-    color: #8c8cf9 !important;
-    border-bottom: 2px solid #8c8cf9 !important
+    color: rgb(15, 124, 255) !important;
+    border-bottom: 2px solidrgb(15, 124, 255) !important
 }
 
 
@@ -3503,7 +3503,7 @@ footer.footer-dark-left .level-item .icon {
 /* line 291, src/assets/scss/layout/_footer.scss */
 
 footer.footer-dark-left .level-item .icon :hover {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -3519,7 +3519,7 @@ footer.footer-dark-left .moto {
 .footer-light-medium {
     padding-bottom: 0 !important;
     padding-top: 4rem !important;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
 }
 
 
@@ -3580,7 +3580,7 @@ footer.footer-dark-left .moto {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     font-weight: 500
 }
 
@@ -3756,7 +3756,7 @@ footer.footer-dark-left .moto {
 /* line 472, src/assets/scss/layout/_footer.scss */
 
 footer.colored-footer {
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     padding: 0
 }
 
@@ -5140,7 +5140,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .side-navigation-menu .navigation-menu-wrapper li.has-children ul li a.is-submenu:hover,
 .side-navigation-menu .navigation-menu-wrapper li.has-children ul li a.is-submenu.is-active {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -5243,7 +5243,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: #8c8cf9;
+    background-color: rgb(15, 124, 255);
     z-index: 999998;
     transition: -webkit-transform 0.35s ease-out;
     -webkit-transition: -webkit-transform 0.35s ease-out;
@@ -5455,7 +5455,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 71, src/assets/scss/components/_accordion.scss */
 
 .simple-accordion-wrapper.is-primary a.active {
-    background-color: #8c8cf9
+    background-color: rgb(15, 124, 255)
 }
 
 
@@ -5502,14 +5502,14 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 113, src/assets/scss/components/_accordion.scss */
 
 .multi-toggle-wrapper .mt-item:hover .mt-item-label {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
 /* line 116, src/assets/scss/components/_accordion.scss */
 
 .multi-toggle-wrapper .mt-item:hover .mt-item-label span {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -6149,7 +6149,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
     margin-left: 10px;
     position: relative;
     top: 2px;
-    color: #8c8cf9 !important;
+    color: rgb(15, 124, 255) !important;
     -webkit-transition: all 0.5s;
     transition: all 0.5s
 }
@@ -6174,8 +6174,8 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .button.primary-btn {
     outline: none;
-    border-color: #8c8cf9;
-    background-color: #8c8cf9;
+    border-color: rgb(15, 124, 255);
+    background-color: rgb(15, 124, 255);
     color: #fff;
     -webkit-transition: all 0.5s;
     transition: all 0.5s
@@ -6201,8 +6201,8 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 257, src/assets/scss/components/_buttons.scss */
 
 .button.primary-btn.btn-outlined {
-    border-color: #8c8cf9;
-    color: #8c8cf9;
+    border-color: rgb(15, 124, 255);
+    color: rgb(15, 124, 255);
     background-color: transparent
 }
 
@@ -6211,14 +6211,14 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .button.primary-btn.btn-outlined:hover {
     color: #fff;
-    background-color: #8c8cf9
+    background-color: rgb(15, 124, 255)
 }
 
 
 /* line 268, src/assets/scss/components/_buttons.scss */
 
 .button.primary-btn:focus {
-    border-color: #8c8cf9
+    border-color: rgb(15, 124, 255)
 }
 
 
@@ -6681,7 +6681,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
     padding: 16px 0;
     font-size: 1.1rem;
     font-weight: 500;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -6955,7 +6955,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .flex-card .flex-card-header .header-control:hover i,
 .carousel-wrap .testimonials-solo-carousel .testimonial-item .flex-card-header .header-control:hover i {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -6963,7 +6963,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .flex-card .flex-card-header.primary,
 .carousel-wrap .testimonials-solo-carousel .testimonial-item .flex-card-header.primary {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -7065,7 +7065,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .flex-card.primary-card,
 .carousel-wrap .testimonials-solo-carousel .primary-card.testimonial-item {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -7383,7 +7383,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .flex-card.auth-card .auth-card-header.header-primary,
 .carousel-wrap .testimonials-solo-carousel .auth-card.testimonial-item .auth-card-header.header-primary {
-    background-color: #8c8cf9;
+    background-color: rgb(15, 124, 255);
     color: #fff;
     -webkit-box-shadow: 0 14px 26px -12px rgba(140, 140, 249, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(140, 140, 249, 0.2) !important;
     box-shadow: 0 14px 26px -12px rgba(140, 140, 249, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(140, 140, 249, 0.2) !important
@@ -7416,7 +7416,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .flex-card.testimonial-card .testimonial-title,
 .carousel-wrap .testimonials-solo-carousel .testimonial-card.testimonial-item .testimonial-title {
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     font-weight: 500;
     padding: 5px 0
 }
@@ -7516,7 +7516,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.primary,
 .carousel-wrap .testimonials-solo-carousel .testimonial-item .navigation-tabs.outlined-pills .tabs.tabs-header.primary {
-    background-color: #8c8cf9
+    background-color: rgb(15, 124, 255)
 }
 
 
@@ -7679,7 +7679,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #8c8cf9;
+    background-color: rgb(15, 124, 255);
     z-index: 1
 }
 
@@ -7799,7 +7799,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 664, src/assets/scss/components/_cards.scss */
 
 .card-text .text.text-container .text-header .text-subtitle {
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     font-family: "Nexa Light", sans-serif
 }
 
@@ -7840,7 +7840,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
     text-decoration: none;
     margin-top: 1em;
     display: inline-block;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -7943,7 +7943,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 771, src/assets/scss/components/_cards.scss */
 
 .card.ressource-card .card-image .card-image-overlay.primary {
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     opacity: 0.6
 }
 
@@ -7976,7 +7976,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 795, src/assets/scss/components/_cards.scss */
 
 .card.ressource-card .card-content .media-content a:hover {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -8255,14 +8255,14 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 59, src/assets/scss/components/_boxes.scss */
 
 .icon-box.primary .box-icon {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
 /* line 63, src/assets/scss/components/_boxes.scss */
 
 .icon-box.primary .box-title {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -8446,7 +8446,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 191, src/assets/scss/components/_boxes.scss */
 
 .diamond-box.primary .diamond {
-    background-color: #8c8cf9;
+    background-color: rgb(15, 124, 255);
     -webkit-box-shadow: 0 14px 26px -12px rgba(140, 140, 249, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(140, 140, 249, 0.2) !important;
     box-shadow: 0 14px 26px -12px rgba(140, 140, 249, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(140, 140, 249, 0.2) !important
 }
@@ -8455,7 +8455,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 196, src/assets/scss/components/_boxes.scss */
 
 .diamond-box.primary .box-title {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -8664,7 +8664,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 340, src/assets/scss/components/_boxes.scss */
 
 .square-icon-box.primary .icon-box {
-    background-color: #8c8cf9;
+    background-color: rgb(15, 124, 255);
     -webkit-box-shadow: 0 14px 26px -12px rgba(140, 140, 249, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(140, 140, 249, 0.2) !important;
     box-shadow: 0 14px 26px -12px rgba(140, 140, 249, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(140, 140, 249, 0.2) !important
 }
@@ -8673,14 +8673,14 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 344, src/assets/scss/components/_boxes.scss */
 
 .square-icon-box.primary .icon-box:after {
-    border: 2px solid #8c8cf9
+    border: 2px solidrgb(15, 124, 255)
 }
 
 
 /* line 349, src/assets/scss/components/_boxes.scss */
 
 .square-icon-box.primary .box-title {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -8845,7 +8845,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
     height: 75px;
     font-size: 25px;
     line-height: 75px;
-    background-color: #8c8cf9;
+    background-color: rgb(15, 124, 255);
     border-radius: 10px;
     -webkit-box-shadow: 0 14px 26px -12px rgba(140, 140, 249, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(140, 140, 249, 0.2) !important;
     -ms-box-shadow: 0 14px 26px -12px rgba(140, 140, 249, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(140, 140, 249, 0.2) !important;
@@ -9009,7 +9009,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
     font-family: "Nexa Light", sans-serif;
     font-size: 1rem;
     font-weight: 900;
-    color: #8c8cf9 !important
+    color: rgb(15, 124, 255) !important
 }
 
 
@@ -9065,7 +9065,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
     font-size: 2rem;
     padding: 22px;
     color: #fff;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     -webkit-box-shadow: 0 14px 26px -12px rgba(140, 140, 249, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(140, 140, 249, 0.2) !important;
     box-shadow: 0 14px 26px -12px rgba(140, 140, 249, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(140, 140, 249, 0.2) !important;
     border-radius: 100px;
@@ -9087,7 +9087,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 659, src/assets/scss/components/_boxes.scss */
 
 .card-counter .counter-text {
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     font-weight: 600;
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
@@ -9099,7 +9099,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .icon-counter .counter-icon i {
     font-size: 3.4rem;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -9116,7 +9116,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 684, src/assets/scss/components/_boxes.scss */
 
 .icon-counter .counter-text {
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     font-family: "Roboto", sans-serif;
     font-size: 1.1rem;
     font-weight: 500;
@@ -9128,7 +9128,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 699, src/assets/scss/components/_boxes.scss */
 
 .parallax-counter.is-primary i {
-    color: #8c8cf9 !important
+    color: rgb(15, 124, 255) !important
 }
 
 
@@ -9317,7 +9317,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .team-classic .member-name .position {
     font-size: 0.9rem;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     font-family: "Nexa Light", sans-serif
 }
 
@@ -9489,7 +9489,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 .modern-team .modern-team-item .overlay-wrapper .social i {
     position: relative;
     font-size: 1.3rem;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -9526,7 +9526,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
     font-family: "Nexa Light", sans-serif;
     font-size: .8em;
     text-transform: uppercase;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -9734,7 +9734,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
     margin-top: 5px;
     font-size: .8rem;
     font-weight: 400;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -9773,7 +9773,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 1127, src/assets/scss/components/_boxes.scss */
 
 .card-team .card-team-item .card-social-links a:hover {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -9887,7 +9887,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 .flip-boxes .flip-box-wrapper .back .flip-name span {
     font-size: 0.9rem;
     text-transform: uppercase;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -9911,7 +9911,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 1222, src/assets/scss/components/_boxes.scss */
 
 .flip-boxes .flip-box-wrapper .back .flip-social a:hover {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -10032,7 +10032,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 1300, src/assets/scss/components/_boxes.scss */
 
 .rounded-team-member .social-profiles a:hover i {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -10405,8 +10405,8 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 .slick-custom:hover {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
-    background: #8c8cf9;
-    border: 1px solid #8c8cf9;
+    background: rgb(15, 124, 255);
+    border: 1px solidrgb(15, 124, 255);
     color: #fff;
     -webkit-box-shadow: 0 14px 26px -12px rgba(140, 140, 249, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(140, 140, 249, 0.2) !important;
     box-shadow: 0 14px 26px -12px rgba(140, 140, 249, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(140, 140, 249, 0.2) !important
@@ -10521,8 +10521,8 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .tabs-nav li.active a,
 .tabs-nav li.active a:hover {
-    border-color: #8c8cf9;
-    color: #8c8cf9 !important;
+    border-color: rgb(15, 124, 255);
+    color: rgb(15, 124, 255) !important;
     z-index: 11
 }
 
@@ -10593,7 +10593,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 128, src/assets/scss/components/_tabs.scss */
 
 .navigation-tabs.simple-tabs .tabs ul li:hover a {
-    border-bottom-color: #8c8cf9
+    border-bottom-color: rgb(15, 124, 255)
 }
 
 
@@ -10601,14 +10601,14 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .navigation-tabs.simple-tabs .tabs ul li.is-active a {
     color: #444F60;
-    border-bottom: 2px solid #8c8cf9
+    border-bottom: 2px solidrgb(15, 124, 255)
 }
 
 
 /* line 138, src/assets/scss/components/_tabs.scss */
 
 .navigation-tabs.simple-tabs .tabs ul li.is-active a .icon i {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -10622,7 +10622,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 153, src/assets/scss/components/_tabs.scss */
 
 .navigation-tabs.boxed-tabs .tabs ul li.is-active a {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -10652,8 +10652,8 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 .navigation-tabs.outlined-pills .tabs ul li.is-active a {
     color: #A9ABAC;
     margin-bottom: 5px;
-    color: #8c8cf9;
-    border: 1px solid #8c8cf9;
+    color: rgb(15, 124, 255);
+    border: 1px solidrgb(15, 124, 255);
     border-radius: 3px
 }
 
@@ -10661,7 +10661,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 187, src/assets/scss/components/_tabs.scss */
 
 .navigation-tabs.outlined-pills .tabs ul li.is-active a:hover {
-    border: 1px solid #8c8cf9
+    border: 1px solidrgb(15, 124, 255)
 }
 
 
@@ -10764,8 +10764,8 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .navigation-tabs.full-pills.primary .tabs ul li.is-active a {
     color: #fff;
-    border: 1px solid #8c8cf9;
-    background-color: #8c8cf9;
+    border: 1px solidrgb(15, 124, 255);
+    background-color: rgb(15, 124, 255);
     border-radius: 3px;
     -webkit-box-shadow: -1px 3px 15px 0 rgba(0, 0, 0, 0.06);
     box-shadow: -1px 3px 15px 0 rgba(0, 0, 0, 0.06)
@@ -10832,7 +10832,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 365, src/assets/scss/components/_tabs.scss */
 
 .navigation-tabs.square-pills .tabs ul li.is-active a {
-    background-color: #8c8cf9;
+    background-color: rgb(15, 124, 255);
     color: #fff;
     -webkit-box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, 0.18);
     box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, 0.18)
@@ -11050,7 +11050,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 .demo .testimonial-item .testimonial-name h3 {
     font-family: "Nexa Bold", sans-serif;
     font-size: 18px;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     position: relative;
     top: -20px
 }
@@ -11127,7 +11127,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 .vertical-testimonials .vtestimonial-item .vt-content .vt-name {
     font-family: "Nexa Bold", sans-serif;
     font-weight: 500;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     margin-bottom: 0 !important
 }
 
@@ -11253,21 +11253,21 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 /* line 194, src/assets/scss/components/_testimonials.scss */
 
 .flat-testimonials .flat-testimonial-item.primary .skewed-overlay {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
 /* line 198, src/assets/scss/components/_testimonials.scss */
 
 .flat-testimonials .flat-testimonial-item.primary .client-name {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
 /* line 202, src/assets/scss/components/_testimonials.scss */
 
 .flat-testimonials .flat-testimonial-item.primary .fa-quote-left {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -11375,7 +11375,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .modal.is-active .modal-background {
     background: linear-gradient(45deg, #6a85b6 0%, #bac8e0 100%);
-    background-color: #8c8cf9;
+    background-color: rgb(15, 124, 255);
     width: 1000px;
     height: 1000px;
     border-radius: 10000px;
@@ -11698,14 +11698,14 @@ select {
 /* line 102, src/assets/scss/components/_forms.scss */
 
 .input.is-primary-focus:focus {
-    border-color: #8c8cf9
+    border-color: rgb(15, 124, 255)
 }
 
 
 /* line 105, src/assets/scss/components/_forms.scss */
 
 .input.is-primary-focus:focus~.icon i {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -11779,7 +11779,7 @@ select {
 
 .input:focus~.icon i,
 .input:active~.icon i {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -11831,14 +11831,14 @@ select {
 /* line 182, src/assets/scss/components/_forms.scss */
 
 .textarea.is-primary-focus:focus {
-    border-color: #8c8cf9
+    border-color: rgb(15, 124, 255)
 }
 
 
 /* line 185, src/assets/scss/components/_forms.scss */
 
 .textarea.is-primary-focus:focus~span.icon i {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -12310,14 +12310,14 @@ select {
 .control-material.is-primary input.material-input:focus~label,
 .control-material.is-primary input:valid~label,
 .control-material.is-primary textarea:focus~label {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
 /* line 512, src/assets/scss/components/_forms.scss */
 
 .control-material.is-primary .material-input:focus~.caret-icon i {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -12325,21 +12325,21 @@ select {
 
 .control-material.is-primary .bar:before,
 .control-material.is-primary .bar:after {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
 /* line 520, src/assets/scss/components/_forms.scss */
 
 .control-material.is-primary.has-icon input:focus~i {
-    color: #8c8cf9 !important
+    color: rgb(15, 124, 255) !important
 }
 
 
 /* line 524, src/assets/scss/components/_forms.scss */
 
 .control-material.is-primary .dropdown-list .option.selected {
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     color: #fcfcfc
 }
 
@@ -12695,7 +12695,7 @@ select {
 /* line 780, src/assets/scss/components/_forms.scss */
 
 .control .select:after {
-    border: 1px solid #8c8cf9;
+    border: 1px solidrgb(15, 124, 255);
     border-right: 0;
     border-top: 0
 }
@@ -12714,7 +12714,7 @@ select {
 
 .control .select select:active,
 .control .select select:focus {
-    border-color: #8c8cf9
+    border-color: rgb(15, 124, 255)
 }
 
 
@@ -13049,7 +13049,7 @@ select {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     height: .5rem;
-    border-color: #8c8cf9;
+    border-color: rgb(15, 124, 255);
     border-top-style: none;
     border-right-style: none
 }
@@ -13294,7 +13294,7 @@ select {
 /* line 1194, src/assets/scss/components/_forms.scss */
 
 .radio-wrap.is-primary input:checked+span::after {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -14739,7 +14739,7 @@ select {
 
 .table.device-table td i.im-icon-Yes {
     font-size: 24px;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -14801,7 +14801,7 @@ select {
 
 .table.compare-table td i.fa-check {
     font-size: 24px;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -14839,7 +14839,7 @@ select {
 /* line 129, src/assets/scss/components/_tables.scss */
 
 .responsive-table.is-primary tr:first-child {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -15113,14 +15113,14 @@ ol {
 /* line 123, src/assets/scss/components/_lists.scss */
 
 .list-block li.is-active {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
 /* line 126, src/assets/scss/components/_lists.scss */
 
 .list-block li.is-active:hover {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -15209,7 +15209,7 @@ ol {
 /* line 189, src/assets/scss/components/_lists.scss */
 
 .level.nav-level i:hover {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -15399,7 +15399,7 @@ ol {
 /* line 43, src/assets/scss/components/_labels.scss */
 
 .b-badge.is-primary {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -15407,8 +15407,8 @@ ol {
 
 .b-badge.is-primary.badge-outlined {
     background: transparent;
-    border: 1px solid #8c8cf9;
-    color: #8c8cf9
+    border: 1px solidrgb(15, 124, 255);
+    color: rgb(15, 124, 255)
 }
 
 
@@ -15533,7 +15533,7 @@ ol {
 /* line 130, src/assets/scss/components/_labels.scss */
 
 .tag.is-primary {
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     color: #fff
 }
 
@@ -15542,8 +15542,8 @@ ol {
 
 .tag.is-primary.is-outlined {
     background: transparent;
-    border: 1px solid #8c8cf9;
-    color: #8c8cf9
+    border: 1px solidrgb(15, 124, 255);
+    color: rgb(15, 124, 255)
 }
 
 
@@ -15902,14 +15902,14 @@ ol {
 /* line 27, src/assets/scss/components/_messages.scss */
 
 .message.msg-primary .message-header {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
 /* line 31, src/assets/scss/components/_messages.scss */
 
 .message.msg-primary .message-body {
-    border: 1px solid #8c8cf9
+    border: 1px solidrgb(15, 124, 255)
 }
 
 
@@ -16038,7 +16038,7 @@ ol {
 /* line 121, src/assets/scss/components/_messages.scss */
 
 .message.icon-msg.primary-msg i {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -16720,28 +16720,28 @@ ol {
 /* line 170, src/assets/scss/components/_pricing.scss */
 
 .classic-pricing .pricing-table .pricing-plan.is-primary .plan-header {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
 /* line 175, src/assets/scss/components/_pricing.scss */
 
 .classic-pricing .pricing-table .pricing-plan.is-primary .plan-price .plan-price-amount {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
 /* line 179, src/assets/scss/components/_pricing.scss */
 
 .classic-pricing .pricing-table .pricing-plan.is-primary .plan-price .plan-price-currency {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
 /* line 185, src/assets/scss/components/_pricing.scss */
 
 .classic-pricing .pricing-table .pricing-plan.is-primary .plan-footer .button {
-    background-color: #8c8cf9;
+    background-color: rgb(15, 124, 255);
     border-color: transparent;
     color: #fff
 }
@@ -16781,7 +16781,7 @@ ol {
 /* line 211, src/assets/scss/components/_pricing.scss */
 
 .classic-pricing .pricing-table .pricing-plan.is-primary .plan-footer .button[disabled] {
-    background-color: #8c8cf9;
+    background-color: rgb(15, 124, 255);
     border-color: transparent
 }
 
@@ -17340,28 +17340,28 @@ ol {
 /* line 635, src/assets/scss/components/_pricing.scss */
 
 .minimal-pricing.featured {
-    border: 2px solid #8c8cf9
+    border: 2px solidrgb(15, 124, 255)
 }
 
 
 /* line 638, src/assets/scss/components/_pricing.scss */
 
 .minimal-pricing.featured .plan-name {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
 /* line 642, src/assets/scss/components/_pricing.scss */
 
 .minimal-pricing.featured .price .price-number {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
 /* line 646, src/assets/scss/components/_pricing.scss */
 
 .minimal-pricing.featured .price .price-currency {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -17485,9 +17485,9 @@ ol {
 /* line 728, src/assets/scss/components/_pricing.scss */
 
 .plan-controls span.is-active {
-    border: 1px solid #8c8cf9;
+    border: 1px solidrgb(15, 124, 255);
     border-radius: 4px;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -17564,7 +17564,7 @@ ol {
 
 .side-pricing .pricing-card .popular i {
     font-size: 26px;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -17842,21 +17842,21 @@ ol {
 /* line 964, src/assets/scss/components/_pricing.scss */
 
 .fancy-pricing .fancy-pricing-card.primary .plan-name {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
 /* line 968, src/assets/scss/components/_pricing.scss */
 
 .fancy-pricing .fancy-pricing-card.primary .plan-icon i {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
 /* line 973, src/assets/scss/components/_pricing.scss */
 
 .fancy-pricing .fancy-pricing-card.primary .plan-features li .large-count {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -18009,7 +18009,7 @@ ol {
 /* line 1086, src/assets/scss/components/_pricing.scss */
 
 .header-pricing .header-pricing-card.primary .plan-name {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -18371,7 +18371,7 @@ ol {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     -webkit-transition: all .3s;
     transition: all .3s
 }
@@ -18584,7 +18584,7 @@ ol {
 /* line 1454, src/assets/scss/components/_pricing.scss */
 
 .pricing-card .features .feature span.colored {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -18641,7 +18641,7 @@ ol {
 
 .billing-switcher-wrapper .by-month.is-active,
 .billing-switcher-wrapper .by-year.is-active {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -18766,7 +18766,7 @@ ol {
 .pricing-wrapper .carousel-wrap .testimonials-solo-carousel .testimonial-item .condensed-plan .plan-description span,
 .carousel-wrap .testimonials-solo-carousel .pricing-wrapper .testimonial-item .condensed-plan .plan-description span {
     font-weight: 500;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -18839,7 +18839,7 @@ ol {
 .carousel-wrap .testimonials-solo-carousel .pricing-wrapper .testimonial-item .condensed-plan .plan-price .yearly-billed {
     padding-top: 2rem;
     font-size: 0.9rem;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     visibility: hidden
 }
 
@@ -19019,7 +19019,7 @@ ol {
 .is-pricing-card .plan-price {
     font-size: 2rem;
     font-weight: 500;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -19211,7 +19211,7 @@ ol {
     height: 4px;
     width: 30px;
     border-radius: 50px;
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -19876,7 +19876,7 @@ ol {
     font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: 600;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -20131,7 +20131,7 @@ ol {
 /* line 145, src/assets/scss/components/_dropdowns.scss */
 
 .is-drop .dropContain .dropOut.is-primary ul li:hover {
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     color: #fff
 }
 
@@ -20372,7 +20372,7 @@ button i.sl-icon-arrow-down {
 
 .jq-dropdown.is-primary .jq-dropdown-menu li>a:hover,
 .jq-dropdown.is-primary .jq-dropdown .jq-dropdown-menu label:hover {
-    background-color: #8c8cf9;
+    background-color: rgb(15, 124, 255);
     color: #fff
 }
 
@@ -20489,7 +20489,7 @@ button i.sl-icon-arrow-down {
 /* line 392, src/assets/scss/components/_dropdowns.scss */
 
 .is-megamenu .mega-inner .navbar-item.is-flex:hover i {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -20532,7 +20532,7 @@ button i.sl-icon-arrow-down {
 /* line 427, src/assets/scss/components/_dropdowns.scss */
 
 .is-megamenu .mega-btn.primary-btn {
-    background: #8c8cf9 !important;
+    background: rgb(15, 124, 255) !important;
     color: #fff
 }
 
@@ -20601,7 +20601,7 @@ button i.sl-icon-arrow-down {
 /* line 483, src/assets/scss/components/_dropdowns.scss */
 
 .media.media-notification:hover .notification-title {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -20719,8 +20719,8 @@ button i.sl-icon-arrow-down {
 /* line 40, src/assets/scss/components/_checkboxes.scss */
 
 .b-checkbox.is-primary input[type="checkbox"]:checked+label::before {
-    background-color: #8c8cf9;
-    border-color: #8c8cf9
+    background-color: rgb(15, 124, 255);
+    border-color: rgb(15, 124, 255)
 }
 
 
@@ -21013,8 +21013,8 @@ button i.sl-icon-arrow-down {
 
 .badge.is-badge-outlined.badge-primary::after {
     background: #fff;
-    border: .1rem solid #8c8cf9;
-    color: #8c8cf9
+    border: .1rem solidrgb(15, 124, 255);
+    color: rgb(15, 124, 255)
 }
 
 
@@ -21263,7 +21263,7 @@ button i.sl-icon-arrow-down {
 /* line 175, src/assets/scss/components/_badge.scss */
 
 .badge.badge-primary::after {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -21495,7 +21495,7 @@ input[type=range].slider::-ms-track {
 /* line 226, src/assets/scss/components/_range.scss */
 
 input[type=range].slider::-ms-fill-lower {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -21918,21 +21918,21 @@ input[type=range].slider.is-large[orient="vertical"]::-webkit-slider-thumb {
 /* line 325, src/assets/scss/components/_range.scss */
 
 input[type=range].slider.is-primary::-webkit-slider-runnable-track {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
 /* line 329, src/assets/scss/components/_range.scss */
 
 input[type=range].slider.is-primary::-moz-range-track {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
 /* line 333, src/assets/scss/components/_range.scss */
 
 input[type=range].slider.is-primary::-ms-track {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -22132,9 +22132,9 @@ input[type=range].slider.is-danger::-ms-track {
 /* line 96, src/assets/scss/components/_ribbon.scss */
 
 .ribbon.is-primary {
-    background-color: #8c8cf9;
+    background-color: rgb(15, 124, 255);
     color: #fff;
-    border-color: #8c8cf9
+    border-color: rgb(15, 124, 255)
 }
 
 
@@ -23086,7 +23086,7 @@ input[type=range].slider.is-danger::-ms-track {
 /* line 195, src/assets/scss/components/_slider.scss */
 
 .range.is-primary .bubble-label .drop {
-    background: #8c8cf9 !important
+    background: rgb(15, 124, 255) !important
 }
 
 
@@ -23098,7 +23098,7 @@ input[type=range].slider.is-danger::-ms-track {
     height: 25px;
     width: 25px;
     border-radius: 100%;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     cursor: pointer;
     z-index: 1;
     -webkit-appearance: none;
@@ -23114,7 +23114,7 @@ input[type=range].slider.is-danger::-ms-track {
     height: 25px;
     width: 25px;
     border-radius: 100%;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     cursor: pointer;
     z-index: 1
 }
@@ -23128,7 +23128,7 @@ input[type=range].slider.is-danger::-ms-track {
     height: 25px;
     width: 25px;
     border-radius: 100%;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     cursor: pointer;
     z-index: 1
 }
@@ -25139,7 +25139,7 @@ input[type=range].slider.is-danger::-ms-track {
 /* line 312, src/assets/scss/components/_switch.scss */
 
 .switch[type="checkbox"].is-primary:checked+label::before {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -25169,14 +25169,14 @@ input[type=range].slider.is-danger::-ms-track {
 
 .switch[type="checkbox"].is-primary.is-outlined:checked+label::before {
     background-color: transparent;
-    border-color: #8c8cf9
+    border-color: rgb(15, 124, 255)
 }
 
 
 /* line 352, src/assets/scss/components/_switch.scss */
 
 .switch[type="checkbox"].is-primary.is-outlined:checked+label::after {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -26725,7 +26725,7 @@ input[type=range].slider.is-danger::-ms-track {
 /* line 89, src/assets/scss/components/_calendar.scss */
 
 .calendar-legacy .calendar-event.is-primary {
-    background: #8c8cf9 !important
+    background: rgb(15, 124, 255) !important
 }
 
 
@@ -27268,7 +27268,7 @@ input[type=range].slider.is-danger::-ms-track {
     display: -ms-flexbox;
     display: flex;
     border-radius: 12px;
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -27883,7 +27883,7 @@ input[type=range].slider.is-danger::-ms-track {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     font-weight: 500
 }
 
@@ -28028,7 +28028,7 @@ input[type=range].slider.is-danger::-ms-track {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     font-weight: 500
 }
 
@@ -28106,7 +28106,7 @@ input[type=range].slider.is-danger::-ms-track {
 /* line 802, src/assets/scss/pages/_demo-landing.scss */
 
 .footer-light-medium-demo .footer-body .social-links a:hover {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -28149,7 +28149,7 @@ input[type=range].slider.is-danger::-ms-track {
 /* line 828, src/assets/scss/pages/_demo-landing.scss */
 
 .footer-light-medium-demo .footer-copyright a:hover {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 @media (max-width: 767px) {
@@ -28658,7 +28658,7 @@ code.hljs span {
 
 .flex-card.is-active .name,
 .carousel-wrap .testimonials-solo-carousel .is-active.testimonial-item .name {
-    color: #8c8cf9 !important
+    color: rgb(15, 124, 255) !important
 }
 
 
@@ -28716,8 +28716,8 @@ code.hljs span {
 .carousel-wrap .testimonials-solo-carousel .testimonial-item .card-select i:hover,
 .flex-card .card-select i.is-active,
 .carousel-wrap .testimonials-solo-carousel .testimonial-item .card-select i.is-active {
-    color: #8c8cf9;
-    border: 2px solid #8c8cf9
+    color: rgb(15, 124, 255);
+    border: 2px solidrgb(15, 124, 255)
 }
 
 
@@ -29414,7 +29414,7 @@ code.hljs span {
 
 .flex-card.color-card .color-item .color-spot.is-primary,
 .carousel-wrap .testimonials-solo-carousel .color-card.testimonial-item .color-item .color-spot.is-primary {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -29646,7 +29646,7 @@ span.more-info {
 span.more-info-email {
     font-size: 26px;
     margin-top: 20px;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -30008,7 +30008,7 @@ pre {
     left: 0;
     width: 100%;
     height: 2px;
-    border-bottom: 1.6px dashed #8c8cf9
+    border-bottom: 1.6px dashedrgb(15, 124, 255)
 }
 
 
@@ -30016,7 +30016,7 @@ pre {
 
 .section-title.is-flex .actions .link-wrap a {
     display: inline-block;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     font-weight: 500
 }
 
@@ -30169,7 +30169,7 @@ pre {
 
 .section-title-wrapper .top-subtitle {
     text-transform: uppercase;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     font-family: "Nexa Light", sans-serif;
     font-weight: 700;
     font-size: 1.05rem
@@ -30198,7 +30198,7 @@ pre {
 .section-title-wrapper .icon-subtitle.is-one i {
     margin: 10px 5px 0 5px;
     font-size: 2.2rem;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -30207,7 +30207,7 @@ pre {
 .section-title-wrapper .icon-subtitle.is-many i {
     margin: 10px 5px 0 5px;
     font-size: 1.4rem;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -30476,7 +30476,7 @@ pre {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     font-weight: 500
 }
 
@@ -30702,7 +30702,7 @@ pre {
     display: block;
     height: 2px;
     width: 60px;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     border-radius: 50px;
     margin: 15px auto;
     -webkit-transform: rotate(-45deg);
@@ -30720,7 +30720,7 @@ pre {
 /* line 276, src/assets/scss/pages/_text-elements.scss */
 
 .title-divider {
-    background: #8c8cf9 !important;
+    background: rgb(15, 124, 255) !important;
     height: 3px;
     border-radius: 50px
 }
@@ -30771,7 +30771,7 @@ pre {
 /* line 29, src/assets/scss/pages/_hero-elements.scss */
 
 #landing-hero {
-    background: #8c8cf9 url(../img/graphics/legacy/icon-bg.png) repeat 0 0;
+    background: rgb(15, 124, 255) url(../img/graphics/legacy/icon-bg.png) repeat 0 0;
     -webkit-animation: 18s linear 0s normal none infinite animate;
     animation: 18s linear 0s normal none infinite animate
 }
@@ -31101,28 +31101,28 @@ body.is-theme-red .hero.is-wavy-bg:before {
 /* line 336, src/assets/scss/pages/_hero-elements.scss */
 
 .waves-primary .animated-waves .parallax>use:nth-child(2) {
-    fill: rgba(140, 140, 249, 0.5) !important
+    fill: rgba(15, 124, 255, 0.5) !important
 }
 
 
 /* line 340, src/assets/scss/pages/_hero-elements.scss */
 
 .waves-primary .animated-waves .parallax>use:nth-child(3) {
-    fill: rgba(140, 140, 249, 0.3) !important
+    fill: rgba(15, 124, 255, 0.3) !important
 }
 
 
 /* line 344, src/assets/scss/pages/_hero-elements.scss */
 
 .waves-primary .animated-waves .parallax>use:nth-child(4) {
-    fill: #8c8cf9 !important
+    fill: rgb(15, 124, 255) !important
 }
 
 
 /* line 348, src/assets/scss/pages/_hero-elements.scss */
 
 .waves-primary .animated-waves .parallax>use:last-child {
-    fill: rgba(140, 140, 249, 0.7) !important
+    fill: rgba(15, 124, 255, 0.7) !important
 }
 
 
@@ -31240,8 +31240,8 @@ body.is-theme-red .hero.is-wavy-bg:before {
 
 .hero.gradient-hero {
     position: relative;
-    background: #8c8cf9;
-    background: linear-gradient(-45deg, #ad5cff, #8c8cf9, #8c8cf9, #ad5cff);
+    background: rgb(15, 124, 255);
+    background: linear-gradient(-45deg, #ad5cff, rgb(15, 124, 255), rgb(15, 124, 255), #ad5cff);
     background-size: 400% 400%;
     -webkit-animation: gradientBG 15s ease infinite;
     animation: gradientBG 15s ease infinite
@@ -31390,8 +31390,8 @@ body.is-theme-red .hero.is-wavy-bg:before {
     left: 0;
     width: 100%;
     height: 580px;
-    background: #8c8cf9;
-    background: linear-gradient(-45deg, #ad5cff, #8c8cf9, #8c8cf9, #ad5cff);
+    background: rgb(15, 124, 255);
+    background: linear-gradient(-45deg, #ad5cff, rgb(15, 124, 255), rgb(15, 124, 255), #ad5cff);
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
     -webkit-transition: all .3s;
@@ -31640,7 +31640,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 /* line 743, src/assets/scss/pages/_hero-elements.scss */
 
 .hero.type-2.type-2-heavy {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -31883,7 +31883,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
     display: -ms-flexbox;
     display: flex;
     border-radius: 12px;
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -33362,7 +33362,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     content: '';
     width: 2px;
     height: 60px;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     position: absolute;
     top: 0;
     left: 0;
@@ -33379,7 +33379,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     content: '';
     width: 2px;
     height: 60px;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -33892,7 +33892,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 1193, src/assets/scss/pages/_section-elements.scss */
 
 .section-wrap .section.image-section .support-features .support-card:hover {
-    border-color: #8c8cf9 !important;
+    border-color: rgb(15, 124, 255) !important;
     -webkit-box-shadow: -1px 3px 15px 0 rgba(0, 0, 0, 0.06);
     box-shadow: -1px 3px 15px 0 rgba(0, 0, 0, 0.06)
 }
@@ -33902,7 +33902,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .section-wrap .section.image-section .support-features .support-card:hover h3,
 .section-wrap .section.image-section .support-features .support-card:hover i {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -34063,7 +34063,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     position: absolute;
     top: 13px;
     right: 0;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -34170,7 +34170,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     padding: 12px;
     -webkit-transform: rotate(-600deg);
     transform: rotate(-600deg);
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -34269,7 +34269,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 110, src/assets/scss/pages/_button-elements.scss */
 
 #pricing .button-wrap .combo-button .button.is-active {
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     color: #fff
 }
 
@@ -34295,7 +34295,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 31, src/assets/scss/pages/_card-elements.scss */
 
 .services-cards.is-minimal .feature-card:hover i {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -34327,7 +34327,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .services-cards .card-icon i {
     font-size: 5rem;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 @media (max-width: 768px) {
@@ -34822,7 +34822,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 .boxed-features .carousel-wrap .testimonials-solo-carousel .testimonial-item .flex-cell i,
 .carousel-wrap .testimonials-solo-carousel .boxed-features .testimonial-item .flex-cell i {
     font-size: 2.2rem;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -34917,7 +34917,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 .agency-icon-box i {
     font-size: 3.4rem;
     font-weight: normal;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -34970,7 +34970,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 .startup-icon-box i {
     font-size: 3.8rem;
     font-weight: normal;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -35076,7 +35076,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .values-cards .card-icon i {
     font-size: 5rem;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -35098,7 +35098,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 263, src/assets/scss/pages/_feature-elements.scss */
 
 .values-cards.is-minimal .feature-card:hover i {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 @media (max-width: 768px) {
@@ -35114,7 +35114,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 .wavy-icon-box i {
     font-size: 3.8rem;
     font-weight: normal;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -35126,7 +35126,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     font-size: 14px;
     line-height: 20px;
     font-weight: 600;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -35263,7 +35263,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 .chat-icon-box i {
     font-size: 3.8rem;
     font-weight: normal;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -35275,7 +35275,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     font-size: 16px;
     line-height: 20px;
     font-weight: 700;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -35741,7 +35741,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 770, src/assets/scss/pages/_feature-elements.scss */
 
 .side-card .round-icon.is-primary {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -35799,7 +35799,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .side-card .meta span:nth-child(3),
 .side-card .meta a:nth-child(3) {
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     font-size: .95rem
 }
 
@@ -35976,7 +35976,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 923, src/assets/scss/pages/_feature-elements.scss */
 
 .theme-feature .feature-icon i {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -36266,7 +36266,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     -ms-flex-pack: center;
     justify-content: center;
     border-radius: 50%;
-    border: 2px solid #8c8cf9;
+    border: 2px solidrgb(15, 124, 255);
     -webkit-box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #fff;
     box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #fff
 }
@@ -36301,7 +36301,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 1154, src/assets/scss/pages/_feature-elements.scss */
 
 .extra-word .text p .fa {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -36471,7 +36471,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 1266, src/assets/scss/pages/_feature-elements.scss */
 
 .case-study-colors .color-dot-container .color-dot-inner.primary-color {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -36708,7 +36708,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     width: 6px;
     border-radius: 50%;
     margin: 0 2px;
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -37074,7 +37074,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 74, src/assets/scss/pages/_team-elements.scss */
 
 .modern-team.startup-team .modern-team-item a i {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -37161,7 +37161,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     -ms-flex-align: center;
     align-items: center;
     margin: 0 2px;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     -webkit-transition: all .3s;
     transition: all .3s
 }
@@ -37179,7 +37179,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 147, src/assets/scss/pages/_team-elements.scss */
 
 .hero-box .social a:hover {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -37423,7 +37423,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 .section.help-section .category-card .card-body a .inner-content .title {
     margin-bottom: 10px !important;
     font-weight: 400;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -37602,7 +37602,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .breadcrumbs a {
     font-weight: 500;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -37695,7 +37695,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 .help-container .category-header .inner-content .title {
     margin-bottom: 10px !important;
     font-weight: 400;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -37820,7 +37820,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 382, src/assets/scss/pages/_faq-elements.scss */
 
 .help-container .category-header .inner-content .card-meta .meta-info .authors span {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -37865,7 +37865,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 .help-container .articles-list .help-article a .inner-content .title {
     margin-bottom: 10px !important;
     font-weight: 400;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -38112,7 +38112,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 566, src/assets/scss/pages/_faq-elements.scss */
 
 .single-help-article .article-inner .rating-section .rating-button:hover i {
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     -webkit-transform: scale(1.1);
     transform: scale(1.1)
 }
@@ -38164,7 +38164,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     height: 24px;
     width: 24px;
     min-width: 24px;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     border-radius: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -38360,7 +38360,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 107, src/assets/scss/pages/_slider-elements.scss */
 
 .Wallop--v1 .Wallop-dot--current {
-    background-color: #8c8cf9
+    background-color: rgb(15, 124, 255)
 }
 
 
@@ -38608,7 +38608,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 268, src/assets/scss/pages/_slider-elements.scss */
 
 .Wallop--v2 .Wallop-dot--current {
-    background-color: #8c8cf9
+    background-color: rgb(15, 124, 255)
 }
 
 
@@ -38787,7 +38787,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: all 0.5s;
@@ -38954,7 +38954,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .portfolio-item .project-category i {
     font-size: 1.8rem;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -38987,7 +38987,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 180, src/assets/scss/pages/_portfolio-elements.scss */
 
 .portfolio-item .fa-social:hover {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -39203,7 +39203,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     position: absolute;
     top: -25px;
     right: 0;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -39329,7 +39329,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     color: #fff;
     padding: 15px;
     border-radius: 50%;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     position: relative;
     left: 19px;
     -webkit-box-shadow: 0 10px 22px rgba(0, 0, 0, 0.2);
@@ -39677,7 +39677,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    border: solid 2px #8c8cf9;
+    border: solid 2pxrgb(15, 124, 255);
     font-size: 0
 }
 
@@ -39734,7 +39734,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 .css-carousel #radio-2:checked~.carousel-dots label#dotForRadio-2,
 .css-carousel #radio-3:checked~.carousel-dots label#dotForRadio-3,
 .css-carousel #radio-4:checked~.carousel-dots label#dotForRadio-4 {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 @media (max-width: 796px) {
@@ -40399,7 +40399,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 989, src/assets/scss/pages/_carousel-elements.scss */
 
 .customer-testimonials-wrapper .customer-testimonials .testimonial-item .item-inner .left p i {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -40546,7 +40546,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 1097, src/assets/scss/pages/_carousel-elements.scss */
 
 .carousel-wrapper .carousel .carousel-item.slick-current {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -40635,7 +40635,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .carousel-wrapper .carousel .carousel-item .item-footer .meta span:nth-child(2) {
     font-size: 1rem;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     line-height: 1
 }
 
@@ -40826,7 +40826,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 .is-post .featured-post-image .post-date .post-date-inner span:nth-child(2) {
     font-weight: 700;
     font-size: 1.8rem;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -40900,7 +40900,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 181, src/assets/scss/pages/_blog-elements.scss */
 
 .is-post .featured-post-body .featured-post-title .title-meta .post-subtitle a {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -40927,7 +40927,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 .is-post .featured-post-body .read-more-link {
     font-family: "Roboto", sans-serif;
     letter-spacing: 1px;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     font-size: 1.1rem
 }
 
@@ -41087,7 +41087,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 .blog-grid-item .card-image .post-date .post-date-inner span:nth-child(2) {
     font-weight: 700;
     font-size: 1.5rem;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -41160,7 +41160,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 391, src/assets/scss/pages/_blog-elements.scss */
 
 .blog-grid-item .card-content .featured-post-title .title-meta .post-subtitle a {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -41187,7 +41187,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 .blog-grid-item .card-content .read-more-link {
     font-family: "Roboto", sans-serif;
     letter-spacing: 1px;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     font-size: 1rem
 }
 
@@ -41384,7 +41384,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 534, src/assets/scss/pages/_blog-elements.scss */
 
 .blog-sidebar .blog-sidebar-categories .blog-sidebar-category:hover>span {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -41400,7 +41400,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 542, src/assets/scss/pages/_blog-elements.scss */
 
 .blog-sidebar .blog-sidebar-categories .blog-sidebar-category:hover .post-count span {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -41486,7 +41486,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 600, src/assets/scss/pages/_blog-elements.scss */
 
 .blog-sidebar .blog-sidebar-tags .tags .tag:hover {
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     -webkit-box-shadow: -1px 3px 15px 0 rgba(0, 0, 0, 0.06);
     box-shadow: -1px 3px 15px 0 rgba(0, 0, 0, 0.06)
 }
@@ -41582,7 +41582,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 .is-single-post .featured-post-image .post-date .post-date-inner span:nth-child(2) {
     font-weight: 700;
     font-size: 1.8rem;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -41630,7 +41630,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 732, src/assets/scss/pages/_blog-elements.scss */
 
 .is-single-post .featured-post-body .featured-post-title .title-meta .post-subtitle a {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -41659,7 +41659,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     font-family: "Roboto", sans-serif;
     font-size: 1.1rem;
     background: #f5f6fa;
-    border-color: #8c8cf9;
+    border-color: rgb(15, 124, 255);
     color: #8593a9
 }
 
@@ -41748,7 +41748,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .is-single-post .sharing-links .social-links a:hover i,
 .is-single-post .post-tags .social-links a:hover i {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -41797,7 +41797,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 833, src/assets/scss/pages/_blog-elements.scss */
 
 .is-single-post .post-tags .tags .tag:hover {
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     -webkit-box-shadow: -1px 3px 15px 0 rgba(0, 0, 0, 0.06);
     box-shadow: -1px 3px 15px 0 rgba(0, 0, 0, 0.06)
 }
@@ -41870,7 +41870,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 880, src/assets/scss/pages/_blog-elements.scss */
 
 .is-single-post .post-author .post-author-meta .post-author-title a:hover {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -42005,7 +42005,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 991, src/assets/scss/pages/_blog-elements.scss */
 
 .single-comments .comments-list .media .media-content .content .controls .reply a {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -42190,7 +42190,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     font-family: "Nexa Bold", sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     margin: 10px 0 0 0
 }
 
@@ -42198,7 +42198,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 1293, src/assets/scss/pages/_blog-elements.scss */
 
 .main-post .post-content h3 a {
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     -webkit-transition: all .3s;
     transition: all .3s
 }
@@ -42304,7 +42304,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     font-family: "Nexa Bold", sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     margin-bottom: 6px
 }
 
@@ -42312,7 +42312,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 1366, src/assets/scss/pages/_blog-elements.scss */
 
 .side-post .post-content h3 a {
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     -webkit-transition: all .3s;
     transition: all .3s
 }
@@ -42535,7 +42535,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 .contact-toggler .tabbed-links li.is-active {
     color: #444F60;
     font-weight: 500;
-    border-top: 2px solid #8c8cf9
+    border-top: 2px solidrgb(15, 124, 255)
 }
 
 
@@ -42567,7 +42567,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     width: 40px;
     height: 40px;
     border-radius: 50%
@@ -42877,7 +42877,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     font-size: .9rem;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -43010,7 +43010,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 .no-account:hover,
 .return:hover {
     opacity: 0.8;
-    color: #8c8cf9 !important
+    color: rgb(15, 124, 255) !important
 }
 
 
@@ -43046,7 +43046,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 230, src/assets/scss/pages/_auth-elements.scss */
 
 .forgot-password a:hover {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -43061,7 +43061,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 240, src/assets/scss/pages/_auth-elements.scss */
 
 .no-account-link a:hover {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -43195,7 +43195,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .contact-card .icon i {
     font-size: 26px;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     position: relative
 }
 
@@ -43314,7 +43314,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .remember-wrap .control>span a,
 .switch-toggle-wrap .control>span a {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -43440,7 +43440,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     left: 0;
     width: 50%;
     height: 100%;
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -43688,7 +43688,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .login-register-wrapper button.login,
 .login-register-wrapper .is-trigger.login {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -43715,7 +43715,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .login-register-wrapper button.off.login,
 .login-register-wrapper .is-trigger.off.login {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -44036,7 +44036,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .auth-outer .auth-box .form-wrapper .login .item-list .item a:hover,
 .auth-outer .auth-box .form-wrapper .register .item-list .item a:hover {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -44106,7 +44106,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .auth-outer .auth-box .form-wrapper .login .body .control input:focus+.form-icon i,
 .auth-outer .auth-box .form-wrapper .register .body .control input:focus+.form-icon i {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -44188,7 +44188,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     -ms-flex-align: center;
     align-items: center;
     color: #fff;
-    background: linear-gradient(-45deg, #ad5cff, #8c8cf9, #8c8cf9, #ad5cff);
+    background: linear-gradient(-45deg, #ad5cff, rgb(15, 124, 255), rgb(15, 124, 255), #ad5cff);
     background-size: 200% 200%;
     -webkit-animation: gradientBG 15s ease infinite;
     animation: gradientBG 15s ease infinite
@@ -44208,7 +44208,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 .auth-outer .auth-box .side-box .action-btn {
     height: 40px;
     min-width: 160px;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     font-weight: 500
 }
 
@@ -44260,7 +44260,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
         font-size: 1.2rem;
         border: none;
         background: transparent;
-        color: #8c8cf9;
+        color: rgb(15, 124, 255);
         font-weight: 500
     }
     /* line 989, src/assets/scss/pages/_auth-elements.scss */
@@ -44808,8 +44808,8 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     display: block;
     height: 46px;
     min-width: 160px;
-    background: #8c8cf9;
-    border-color: #8c8cf9;
+    background: rgb(15, 124, 255);
+    border-color: rgb(15, 124, 255);
     color: #fff;
     font-weight: 500
 }
@@ -44885,7 +44885,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     height: 20px;
     border-radius: 50%;
     display: block;
-    background-color: #8c8cf9;
+    background-color: rgb(15, 124, 255);
     z-index: 5
 }
 
@@ -44894,7 +44894,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .mockup-dots .dot:before {
     position: absolute;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     content: '';
     top: 0;
     left: 0;
@@ -44956,7 +44956,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .mockup-dots .dot-tip {
     padding: 15px 20px;
-    background-color: #8c8cf9;
+    background-color: rgb(15, 124, 255);
     color: #fff;
     border-radius: 10px 10px 0 10px;
     font-size: 13px;
@@ -45048,7 +45048,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 199, src/assets/scss/pages/_media-elements.scss */
 
 .mockup-wrap .image-wrap .app-features .content-flex i {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -45432,7 +45432,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 .starfall .falling-star {
     width: 8px;
     height: 8px;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     position: absolute;
     border-radius: 50%;
     opacity: .5
@@ -48010,7 +48010,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     height: 180px;
     width: 180px;
     border-radius: 36px;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     opacity: .2;
     -webkit-transform: rotate(24deg);
     transform: rotate(38deg);
@@ -48027,7 +48027,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     width: 80px;
     border-radius: 16px;
     opacity: .5;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     -webkit-transform: rotate(36deg);
     transform: rotate(36deg);
     z-index: 2
@@ -48058,7 +48058,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     height: 40px;
     width: 40px;
     opacity: .5;
-    border: 2px solid #8c8cf9;
+    border: 2px solidrgb(15, 124, 255);
     -webkit-transform: rotate(36deg);
     transform: rotate(36deg);
     z-index: 2
@@ -48073,7 +48073,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
     height: 30px;
     width: 30px;
     opacity: .5;
-    border: 2px solid #8c8cf9;
+    border: 2px solidrgb(15, 124, 255);
     -webkit-transform: rotate(146deg);
     transform: rotate(146deg);
     z-index: 2
@@ -48228,7 +48228,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .morphing-blob-wrapper svg,
 .morphing-blob-wrapper svg circle {
-    fill: #8c8cf9
+    fill: rgb(15, 124, 255)
 }
 
 @-webkit-keyframes from0to360 {
@@ -48434,7 +48434,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 108, src/assets/scss/pages/_ui-elements.scss */
 
 .slide-toggle input:checked~.toggler {
-    border-color: #8c8cf9
+    border-color: rgb(15, 124, 255)
 }
 
 
@@ -48534,8 +48534,8 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 /* line 167, src/assets/scss/pages/_ui-elements.scss */
 
 .slide-toggle .toggler .active {
-    background: #8c8cf9;
-    border-color: #8c8cf9;
+    background: rgb(15, 124, 255);
+    border-color: rgb(15, 124, 255);
     opacity: 0;
     z-index: 0
 }
@@ -48605,7 +48605,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 #bulchat.visible div {
     outline: none;
     opacity: 1;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     cursor: pointer
 }
 
@@ -48741,7 +48741,7 @@ body #bulchat div {
 
 #chat-widget .chat-widget-body .chat-header {
     padding: 20px 20px 10px 20px;
-    background-color: #8c8cf9
+    background-color: rgb(15, 124, 255)
 }
 
 
@@ -48878,7 +48878,7 @@ body #bulchat div {
 #chat-widget .chat-widget-body .message-container .chat-message.from .chat-bubble {
     margin-left: 20px;
     color: #fff;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     border-radius: 0 15px 15px 15px
 }
 
@@ -48896,7 +48896,7 @@ body #bulchat div {
 #chat-widget .chat-widget-body .message-container .chat-message.to .chat-bubble {
     margin-right: 20px;
     color: #fff;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     border: 1px solid #ededed;
     border-radius: 15px 0 15px 15px;
     text-align: left !important
@@ -49054,7 +49054,7 @@ body #bulchat div {
 /* line 552, src/assets/scss/pages/_ui-elements.scss */
 
 a:not(.button).is-link {
-    color: #8c8cf9 !important
+    color: rgb(15, 124, 255) !important
 }
 
 
@@ -49091,14 +49091,14 @@ a:not(.button).is-link {
 /* line 576, src/assets/scss/pages/_ui-elements.scss */
 
 .subscription-combo .control input:focus {
-    border-color: #8c8cf9
+    border-color: rgb(15, 124, 255)
 }
 
 
 /* line 579, src/assets/scss/pages/_ui-elements.scss */
 
 .subscription-combo .control input:focus+.form-icon svg {
-    stroke: #8c8cf9
+    stroke: rgb(15, 124, 255)
 }
 
 
@@ -49167,7 +49167,7 @@ a:not(.button).is-link {
 
 .update-pill .inner-tag {
     height: 26px;
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     color: #fff;
     font-size: .85rem;
     font-weight: 500;
@@ -49226,7 +49226,7 @@ a:not(.button).is-link {
     border-bottom-left-radius: 0px;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
@@ -49467,7 +49467,7 @@ a:not(.button).is-link {
 /* line 842, src/assets/scss/pages/_ui-elements.scss */
 
 .search-box-wrapper .price-block .dropdown-container .dropdown .salary-options-container ul li:not(.dark-text):hover {
-    background: #8c8cf9;
+    background: rgb(15, 124, 255);
     -webkit-box-shadow: 0 14px 26px -12px rgba(140, 140, 249, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(140, 140, 249, 0.2) !important;
     box-shadow: 0 14px 26px -12px rgba(140, 140, 249, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(140, 140, 249, 0.2) !important;
     color: #fff
@@ -49575,7 +49575,7 @@ a:not(.button).is-link {
 /* line 920, src/assets/scss/pages/_ui-elements.scss */
 
 .search-box-wrapper .search-input:focus {
-    border-bottom-color: #8c8cf9
+    border-bottom-color: rgb(15, 124, 255)
 }
 
 
@@ -49664,7 +49664,7 @@ a:not(.button).is-link {
 /* line 981, src/assets/scss/pages/_ui-elements.scss */
 
 .search-box-wrapper .checkbox input[type=checkbox]:checked~.checkbox-material .check {
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     padding: 1px 0 0px 1px;
     cursor: pointer
 }
@@ -49685,7 +49685,7 @@ a:not(.button).is-link {
 .search-box-wrapper .checkbox input[type=checkbox]:checked~.checkbox-material .check:before {
     position: relative;
     top: -2px;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     font: normal normal normal 14px/1 FontAwesome;
     content: "\f00c";
     -webkit-font-feature-settings: 'liga';
@@ -50119,7 +50119,7 @@ figure.team-hover p.icon-links a {
 /* line 259, src/assets/scss/utilities/_hover-effects.scss */
 
 figure.team-hover p.icon-links a:hover span::before {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -50349,7 +50349,7 @@ figure.team-slanted a {
 
 figure.team-slanted a:hover,
 figure.team-slanted a:focus {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -50551,7 +50551,7 @@ figure.team-slanted:hover .member-position {
 
 .side-block .background-wrapper .video-wrapper .playbutton .icon-play i {
     font-size: 6rem;
-    color: #8c8cf9;
+    color: rgb(15, 124, 255);
     -webkit-transition: all 0.5s;
     transition: all 0.5s
 }
@@ -50628,16 +50628,16 @@ figure.team-slanted:hover .member-position {
 
 .bulkit-player-container.reversed-play .plyr--full-ui.plyr--video .plyr__control--overlaid {
     background: #fff !important;
-    border: 1px solid #8c8cf9;
-    color: #8c8cf9 !important
+    border: 1px solidrgb(15, 124, 255);
+    color: rgb(15, 124, 255) !important
 }
 
 
 /* line 132, src/assets/scss/utilities/_video-embed.scss */
 
 .bulkit-player-container.reversed-play .plyr--full-ui.plyr--video .plyr__control--overlaid:hover {
-    background: #8c8cf9 !important;
-    border-color: #8c8cf9 !important;
+    background: rgb(15, 124, 255) !important;
+    border-color: rgb(15, 124, 255) !important;
     color: #fff !important
 }
 
@@ -50654,7 +50654,7 @@ figure.team-slanted:hover .member-position {
 
 .bulkit-player-container.reversed-play .plyr--full-ui.plyr--video .plyr__control--overlaid svg {
     fill: none;
-    stroke: #8c8cf9;
+    stroke: rgb(15, 124, 255);
     stroke-width: 1.6px
 }
 
@@ -50669,7 +50669,7 @@ figure.team-slanted:hover .member-position {
 /* line 156, src/assets/scss/utilities/_video-embed.scss */
 
 .plyr--full-ui.plyr--video .plyr__control--overlaid {
-    background: #8c8cf9 !important;
+    background: rgb(15, 124, 255) !important;
     -webkit-box-shadow: 0 14px 26px -12px rgba(140, 140, 249, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(140, 140, 249, 0.2) !important;
     box-shadow: 0 14px 26px -12px rgba(140, 140, 249, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(140, 140, 249, 0.2) !important
 }
@@ -50681,14 +50681,14 @@ figure.team-slanted:hover .member-position {
 .plyr--video .plyr__control:hover,
 .plyr--video .plyr__control[aria-expanded=true],
 .plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]::before {
-    background: #8c8cf9
+    background: rgb(15, 124, 255)
 }
 
 
 /* line 166, src/assets/scss/utilities/_video-embed.scss */
 
 .plyr--full-ui input[type=range] {
-    color: #8c8cf9
+    color: rgb(15, 124, 255)
 }
 
 
@@ -50796,7 +50796,7 @@ figure.team-slanted:hover .member-position {
 /* line 29, src/assets/scss/layout/_helpers.scss */
 
 .color-primary {
-    color: #8c8cf9 !important
+    color: rgb(15, 124, 255) !important
 }
 
 
@@ -50852,7 +50852,7 @@ figure.team-slanted:hover .member-position {
 /* line 61, src/assets/scss/layout/_helpers.scss */
 
 .primary-text {
-    color: #8c8cf9 !important
+    color: rgb(15, 124, 255) !important
 }
 
 
@@ -52244,7 +52244,7 @@ figure.team-slanted:hover .member-position {
     .nav .nav-item.is-tab.is-active,
     .nav-menu.is-active .nav-item.is-tab.is-active {
         border-bottom: none !important;
-        color: #8c8cf9 !important
+        color: rgb(15, 124, 255) !important
     }
     /* line 119, src/assets/scss/layout/_responsive.scss */
     .nav-item.nav-inner {
@@ -52477,7 +52477,7 @@ figure.team-slanted:hover .member-position {
     }
     /* line 340, src/assets/scss/layout/_responsive.scss */
     .navbar-wrapper.navbar-fade.navbar-light.mobile-menu-dark .nav-menu.is-active .nav-inner.is-menu-mobile.is-active {
-        color: #8c8cf9 !important
+        color: rgb(15, 124, 255) !important
     }
     /* line 347, src/assets/scss/layout/_responsive.scss */
     .navbar-wrapper.navbar-fade.mobile-menu-dark {
@@ -52629,7 +52629,7 @@ figure.team-slanted:hover .member-position {
     }
     /* line 526, src/assets/scss/layout/_responsive.scss */
     .navbar-wrapper.navbar-fade.navbar-light.mobile-menu-dark .nav-menu.is-active .nav-inner.is-menu-mobile.is-active {
-        color: #8c8cf9 !important
+        color: rgb(15, 124, 255) !important
     }
     /* line 533, src/assets/scss/layout/_responsive.scss */
     .navbar-wrapper.navbar-fade.mobile-menu-dark {
