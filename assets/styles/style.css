@@ -907,7 +907,7 @@ select option,
     line-height: inherit;
     padding: 0.9375rem 2rem 0.875rem;
     position: relative;
-    transition: .4s ease-in-out;
+    transition: .5s ease-in-out;
     white-space: nowrap;
 }
 
@@ -930,7 +930,7 @@ select option,
     right: 0;
     bottom: 0;
     left: 0;
-    transition: .4s ease-in-out;
+    transition: .5s ease-in-out;
     width: 64%;
     z-index: -1;
 }
@@ -1503,15 +1503,31 @@ button:focus {
 }
 
 .hover-shadow {
-    -webkit-transition: all .4s ease 0s;
-    -moz-transition: all .4s ease 0s;
-    -o-transition: all .4s ease 0s;
-    transition: all .4s ease 0s;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
     cursor: pointer;
 }
 
+.Skills-Card p {
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+}
+
 .hover-shadow:hover {
-    box-shadow: rgba(66, 133, 255, 0.1) 0px 25px 50px -12px;
+    box-shadow: 0 0.25rem 2rem rgba(48, 76, 253, 0.25), 0 0.25rem 1rem rgba(48, 76, 253, 0.25);
+}
+
+.Skills-Card:hover {
+    background-color: var(--Blue-color);
+    color: white;
+}
+
+.Skills-Card:hover p {
+    color: white;
 }
 
 .avatar--180 {
@@ -1857,7 +1873,7 @@ button:focus {
 .inner-menu-alt .nav {
     border-radius: 20px 20px 2rem 2rem;
     width: 100%;
-    transition: width .4s ease-in-out;
+    transition: width .5s ease-in-out;
 }
 
 @media only screen and (max-width: 580px) {
