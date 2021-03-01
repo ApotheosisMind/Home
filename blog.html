@@ -2,10 +2,10 @@
 <html lang="en">
 
 
-<!-- Mirrored from netgon.net/artstyles/v-card/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 01 Mar 2021 03:59:46 GMT -->
+<!-- Mirrored from netgon.net/artstyles/v-card/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 01 Mar 2021 03:59:46 GMT -->
 <head>
     <meta charset="utf-8" />
-    <title>vCard - Contact</title>
+    <title>vCard - Blog</title>
 
 	<!-- Meta Data -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,10 +40,6 @@
     <!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="assets/styles/style.css"/>
     <link rel="stylesheet" type="text/css" href="assets/demo/style-demo.css"/>
-	
-	<!-- Mapbox-->
-    <script src='../../../api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
-    <link href='../../../api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
 	
 </head>
 <body class="bg-triangles">
@@ -107,7 +103,7 @@
 		        
 				<!-- Content -->
 		        <div class="col-12 col-md-12 col-xl-9">
-				    <div class="box shadow">
+				    <div class="box shadow pb-0">
 					    <!-- Menu -->
 					    <div class="circle-menu">
 						    <div class="hamburger">
@@ -120,47 +116,97 @@
 						    <ul class="nav">
                                 <li class="nav__item"><a href="about.html">About</a></li>
 								<li class="nav__item"><a href="resume.html">Resume</a></li>
-                                <li class="nav__item"><a class="active" href="portfolio.html">Portfolio</a></li>
-                                <li class="nav__item"><a href="blog.html">Blog</a></li>
+                                <li class="nav__item"><a href="portfolio.html">Portfolio</a></li>
+                                <li class="nav__item"><a class="active" href="blog.html">Blog</a></li>
                                 <li class="nav__item"><a href="contact.html">Contact</a></li>
                             </ul>
 						</div>
 
 					    <!-- About -->
 						<div class="pb-2">
-		                    <h1 class="title title--h1 first-title title__separate">Contact</h1>
+		                    <h1 class="title title--h1 first-title title__separate">Blog</h1>
 					    </div>
 
-						<!-- Contact -->
-                        <div class="map" id="map"></div>
-						<h2 class="title title--h3">Contact Form</h2>
+						<!-- News -->
+						<div class="news-grid pb-0">
+							<!-- Post -->
+							<article class="news-item box">
+							    <div class="news-item__image-wrap overlay overlay--45">
+								    <div class="news-item__date">Sep 16, 2019</div>
+									<a class="news-item__link" href="single-post.html"></a>
+								    <img class="cover lazyload" src="assets/img/image_02.jpg" alt="" />
+								</div>
+								<div class="news-item__caption">
+								    <h2 class="title title--h4">Design Conferences in 2019</h2>
+									<p>Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
+								</div>
+							</article>
+
+							<!-- Post -->
+							<article class="news-item box">
+							    <div class="news-item__image-wrap overlay overlay--45">
+								    <div class="news-item__date">Sep 15, 2019</div>
+									<a class="news-item__link" href="single-post.html"></a>
+								    <img class="cover lazyload" src="assets/img/image_06.jpg" alt="" />
+								</div>
+								<div class="news-item__caption">
+								    <h2 class="title title--h4">Best Fonts Every Designer</h2>
+									<p>Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.</p>
+								</div>
+							</article>
+
+							<!-- Post -->
+							<article class="news-item box">
+							    <div class="news-item__image-wrap overlay overlay--45">
+								    <div class="news-item__date">Sep 14, 2019</div>
+									<a class="news-item__link" href="single-post.html"></a>
+								    <img class="cover lazyload" src="assets/img/image_08.jpg" alt="" />
+								</div>
+								<div class="news-item__caption">
+								    <h2 class="title title--h4">Design Digest #80</h2>
+									<p>Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.</p>
+								</div>
+							</article>
 							
-						<form id="contact-form" class="contact-form" data-toggle="validator">
-                            <div class="row">
-				                <div class="form-group col-12 col-md-6">
-									<i class="font-icon icon-user"></i>
-                                    <input type="text" class="input input__icon form-control" id="nameContact" name="nameContact" placeholder="Full name" required="required" autocomplete="on" oninvalid="setCustomValidity('Fill in the field')" onkeyup="setCustomValidity('')">
-								    <div class="help-block with-errors"></div>
-				                </div>
-				                <div class="form-group col-12 col-md-6">
-									<i class="font-icon icon-envelope"></i>
-                                    <input type="email" class="input input__icon form-control" id="emailContact" name="emailContact" placeholder="Email address" required="required" autocomplete="on" oninvalid="setCustomValidity('Email is incorrect')" onkeyup="setCustomValidity('')">
-								    <div class="help-block with-errors"></div>
-				                </div>
-				                <div class="form-group col-12 col-md-12">
-                                    <textarea class="textarea form-control" id="messageContact" name="messageContact" placeholder="Your Message"  rows="4" required="required" oninvalid="setCustomValidity('Fill in the field')" onkeyup="setCustomValidity('')"></textarea>
-								    <div class="help-block with-errors"></div>
-				                </div>
-						    </div>
-							<div class="row">
-				                <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-left">
-					                <div id="validator-contact" class="hidden"></div>
-				                </div>
-				                <div class="col-12 col-md-6 order-1 order-md-2 text-right">
-					                <button type="submit" class="btn"><i class="font-icon icon-send"></i> Send Message</button>
-				                </div>
-			                </div>
-		                </form>
+							<!-- Post -->
+							<article class="news-item box">
+							    <div class="news-item__image-wrap overlay overlay--45">
+								    <div class="news-item__date">Sep 13, 2019</div>
+									<a class="news-item__link" href="single-post.html"></a>
+								    <img class="cover lazyload" src="assets/img/image_07.jpg" alt="" />
+								</div>
+								<div class="news-item__caption">
+								    <h2 class="title title--h4">UI Interactions of the week</h2>
+									<p>Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.</p>
+								</div>
+							</article>
+							
+							<!-- Post -->
+							<article class="news-item box">
+							    <div class="news-item__image-wrap overlay overlay--45">
+								    <div class="news-item__date">Sep 12, 2019</div>
+									<a class="news-item__link" href="single-post.html"></a>
+								    <img class="cover lazyload" src="assets/img/image_05.jpg" alt="" />
+								</div>
+								<div class="news-item__caption">
+								    <h2 class="title title--h4">The Forgotten Art of Spacing</h2>
+									<p>Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								</div>
+							</article>
+							
+							<!-- Post -->
+							<article class="news-item box">
+							    <div class="news-item__image-wrap overlay overlay--45">
+								    <div class="news-item__date">Sep 15, 2019</div>
+									<a class="news-item__link" href="single-post.html"></a>
+								    <img class="cover lazyload" src="assets/img/image_01.jpg" alt="" />
+								</div>
+								<div class="news-item__caption">
+								    <h2 class="title title--h4">Design Digest #79</h2>
+									<p>Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.</p>
+								</div>
+							</article>
+						</div>
 					</div>
 					
 					<!-- Footer -->
@@ -201,12 +247,9 @@
 	<script src="assets/js/jquery-3.4.1.min.js"></script>
 	<script src="assets/js/plugins.min.js"></script>
     <script src="assets/js/common.js"></script>
-
-    <!-- Mapbox init -->
-	<script src="assets/js/mapbox.init.js"></script>
-	
-    <script src="assets/demo/plugins-demo.js"></script>
+    
+	<script src="assets/demo/plugins-demo.js"></script>
 </body>
 
-<!-- Mirrored from netgon.net/artstyles/v-card/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 01 Mar 2021 03:59:46 GMT -->
+<!-- Mirrored from netgon.net/artstyles/v-card/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 01 Mar 2021 03:59:46 GMT -->
 </html>

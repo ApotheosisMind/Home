@@ -1,1 +1,0 @@
-<iframe width="500" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=23.5849602%2C72.3739658&key=AIzaSyDpF6Un2CNIt_ceDOLuQdNxkX_D6IoBSWs" allowfullscreen></iframe>
