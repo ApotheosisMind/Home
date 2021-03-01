@@ -1517,6 +1517,10 @@ button:focus {
     transition: all .5s ease 0s;
 }
 
+.Skills-Card:hover .case-item__icon {
+    fill: white;
+}
+
 .hover-shadow:hover {
     box-shadow: 0 0.25rem 2rem rgba(48, 76, 253, 0.25), 0 0.25rem 1rem rgba(48, 76, 253, 0.25);
 }
@@ -1958,8 +1962,13 @@ button:focus {
 
 .case-item__icon {
     margin-right: 1.1875rem;
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 3rem;
+    width: 3rem;
+    fill: var(--Blue-color);
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
 }
 
 @media only screen and (max-width: 580px) {
