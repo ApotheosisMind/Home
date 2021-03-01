@@ -68,6 +68,7 @@ html {
 }
 
 body {
+    zoom: 95%;
     background-color: #F5F6F7;
     color: #44566C;
     font-family: "Archivo", sans-serif;
@@ -1056,6 +1057,10 @@ button:focus {
 /* -----------------------------------------------------------------
     - Sidebar
 ----------------------------------------------------------------- */
+
+.Face {
+    fill: white;
+}
 
 @media only screen and (max-width: 1200px) {
     .sidebar {
