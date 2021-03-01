@@ -68,7 +68,6 @@ html {
 }
 
 body {
-    zoom: 95%;
     background-color: #F5F6F7;
     color: #44566C;
     font-family: "Archivo", sans-serif;
@@ -79,6 +78,12 @@ body {
     overflow-x: hidden;
     -ms-overflow-style: scrollbar;
     -webkit-font-smoothing: antialiased;
+}
+
+@media only screen and (min-width: 580px) {
+    body {
+        zoom: 95%;
+    }
 }
 
 :root {
