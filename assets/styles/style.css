@@ -2195,7 +2195,7 @@ button:focus {
         margin-bottom: 2rem;
         padding: 0.1875rem 1.1875rem 0.1875rem 1.5rem;
         position: relative;
-        vertical-align: middle;
+        /* vertical-align: middle; */
         text-align: left;
         user-select: none;
         width: 100%;
@@ -2393,10 +2393,6 @@ button:focus {
     .news-item__caption {
         padding: 1.1875rem 1rem 0;
     }
-}
-
-.news-item .title {
-    /* font-family: "Merriweather", serif; */
 }
 
 .news-item p {
