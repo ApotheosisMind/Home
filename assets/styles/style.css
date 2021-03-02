@@ -1445,6 +1445,7 @@ button:focus {
 
 .Skills-Card:hover .case-item__icon {
     fill: white;
+    transform: rotateY(180deg);
 }
 
 .hover-shadow:hover {
