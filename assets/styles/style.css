@@ -82,11 +82,12 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (min-width: 580px) {
+
+/* @media only screen and (min-width: 580px) {
     body {
         zoom: 95%;
     }
-}
+} */
 
 :root {
     --Blue-color: #4285F4;
