@@ -979,7 +979,8 @@ button:focus {
     - Preloader
 ----------------------------------------------------------------- */
 
-.preloader {
+
+/*.preloader {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -995,7 +996,8 @@ button:focus {
     opacity: 1;
 }
 
-.preloader>* {
+
+ .preloader>* {
     min-width: 0;
 }
 
@@ -1060,6 +1062,7 @@ button:focus {
         opacity: 0;
     }
 }
+ */
 
 
 /* -----------------------------------------------------------------
