@@ -504,7 +504,7 @@ $(document).ready(function() {
     -------------------------------------------------------------------*/
 
     $('textarea').niceScroll({
-        horizrailenabled: false
+        horizrailenabled: true
     });
 
 
