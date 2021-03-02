@@ -506,12 +506,12 @@ iframe {
 }
 
 ::-moz-selection {
-    background: transparent;
+    background: #fff;
     color: var(--Blue-color);
 }
 
 ::selection {
-    background: transparent;
+    background: #fff;
     color: var(--Blue-color);
 }
 
