@@ -992,6 +992,12 @@ button:focus {
     }
 }
 
+@media only screen and (min-width: 720px) {
+    .sidebar {
+        zoom: 90%;
+    }
+}
+
 .sidebar .avatar {
     margin-top: -8rem;
     margin-bottom: 1.5625rem;
@@ -1137,6 +1143,12 @@ button:focus {
     max-width: 1.125rem;
     margin-right: 14px;
     fill: #44566C;
+}
+
+.Download_icon {
+    width: 2.5rem;
+    height: 1.25rem;
+    fill: white;
 }
 
 
@@ -1817,7 +1829,7 @@ button:focus {
 ----------------------------------------------------------------- */
 
 .footer {
-    color: white;
+    color: #3B5998;
     font-size: 0.875rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
