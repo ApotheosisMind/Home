@@ -141,9 +141,11 @@ html.is-scroll-disabled body {
 }
 
 .bg-triangles {
-    background-color: #f7f7f7;
+    background: linear-gradient(-45deg, #4285F4, #34A853);
+    /* background-image: url(../img/BG1.svg); */
+    background-position: left top;
     background-repeat: no-repeat;
-    background-size: inherit;
+    background-size: contain;
 }
 
 @media only screen and (max-width: 580px) {
@@ -1814,7 +1816,7 @@ button:focus {
 ----------------------------------------------------------------- */
 
 .footer {
-    color: #8697A8;
+    color: white;
     font-size: 0.875rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
