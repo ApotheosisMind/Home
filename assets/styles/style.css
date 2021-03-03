@@ -858,7 +858,14 @@ select option,
     font-family: "Archivo", sans-serif;
 }
 
+@media only screen and (min-width: 580px) {
+    .tooltip {
+        zoom: 90%;
+    }
+}
+
 .tooltip-inner {
+    margin-top: -20px;
     max-width: 12.5rem;
     padding: 0.25rem 0.5625rem 0.25rem;
     background-color: #44566C;
